@@ -77,6 +77,7 @@ export default {
                 content: this.$els.dropdown,
                 position: this.dropdownPosition,
                 constrainToWindow: true,
+                constrainToScrollParent: true,
                 openOn: this.openOn
             });
 
