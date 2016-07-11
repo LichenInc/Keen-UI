@@ -2408,12 +2408,24 @@ return /******/ (function(modules) { // webpackBootstrap
 	            }
 	
 	            this.drop.on('open', this.dropdownOpened);
+	            this.drop.on('open', this.positionDrop);
 	            this.drop.on('close', this.dropdownClosed);
 	        },
 	        openDropdown: function openDropdown() {
 	            if (this.drop) {
 	                this.drop.open();
 	            }
+	        },
+	        positionDrop: function positionDrop() {
+	            var drop = this.drop;
+	            var dropWidth = drop.drop.getBoundingClientRect().width,
+	                left = drop.target.getBoundingClientRect().left,
+	                right = (0, _dominus2.default)(window).width() - left,
+	                direction = dropWidth > right ? 'right' : 'left';
+	
+	            drop.tether.attachment.left = direction;
+	            drop.tether.targetAttachment.left = direction;
+	            drop.position();
 	        },
 	        closeDropdown: function closeDropdown() {
 	            if (this.drop) {
