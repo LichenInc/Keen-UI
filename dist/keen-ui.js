@@ -2418,9 +2418,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	        },
 	        positionDrop: function positionDrop() {
 	            var drop = this.drop;
+	            var windowWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
 	            var dropWidth = drop.drop.getBoundingClientRect().width,
 	                left = drop.target.getBoundingClientRect().left,
-	                right = (0, _dominus2.default)(window).width() - left,
+	                right = windowWidth - left,
 	                direction = dropWidth > right ? 'right' : 'left';
 	
 	            drop.tether.attachment.left = direction;

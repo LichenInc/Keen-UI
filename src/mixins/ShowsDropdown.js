@@ -106,9 +106,12 @@ export default {
          */
          positionDrop() {
             const drop = this.drop
+            const windowWidth = window.innerWidth
+                || document.documentElement.clientWidth
+                || document.body.clientWidth
             let dropWidth = drop.drop.getBoundingClientRect().width,
                 left = drop.target.getBoundingClientRect().left,
-                right = $(window).width() - left,
+                right = windowWidth - left,
                 direction = dropWidth > right ? 'right' : 'left';
 
             drop.tether.attachment.left = direction;
