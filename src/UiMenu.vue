@@ -55,6 +55,9 @@ export default {
         partial: {
             type: String,
             default: 'ui-menu-default'
+        },
+        id: {
+            default: null
         }
     },
 
@@ -64,7 +67,7 @@ export default {
                 document.addEventListener('focus', this.restrictFocus, true);
             }
 
-            this.$dispatch('opened');
+            this.$dispatch('opened', this.id);
 
             // Bubble the event up
             return true;
@@ -75,7 +78,7 @@ export default {
                 document.removeEventListener('focus', this.restrictFocus, true);
             }
 
-            this.$dispatch('closed');
+            this.$dispatch('closed', this.id);
 
             // Bubble the event up
             return true;
