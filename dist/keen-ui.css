@@ -356,31 +356,30 @@ body[modality="keyboard"] .ui-icon-button-clear.color-black:focus {
   max-width: 272px;
   max-height: 100vh;
   overflow-y: auto;
-  overflow-x: hidden;
 }
 .ui-menu.has-secondary-text {
   min-width: 208px;
   max-width: 304px;
 }
-.ui-menu-option {
+.ui-menu-item {
   -webkit-user-select: none;
   -moz-user-select: none;
    -ms-user-select: none;
        user-select: none;
   cursor: default;
 }
-.ui-menu-option-text {
+.ui-menu-item-text {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.ui-menu-option {
+.ui-menu-item {
   font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   position: relative;
   display: block;
   height: 40px;
 }
-.ui-menu-option.divider {
+.ui-menu-item.divider {
   display: block;
   width: 100%;
   margin: 6px 0;
@@ -388,7 +387,12 @@ body[modality="keyboard"] .ui-icon-button-clear.color-black:focus {
   height: 1px;
   background-color: rgba(0,0,0,0.08);
 }
-.ui-menu-option:not(.divider) {
+.ui-menu-item:not(.divider) {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  padding: 8px 16px;
   width: 100%;
   text-decoration: none;
   color: rgba(0,0,0,0.87);
@@ -396,39 +400,32 @@ body[modality="keyboard"] .ui-icon-button-clear.color-black:focus {
   font-weight: normal;
   outline: none;
 }
-.ui-menu-option:not(.divider):hover:not(.disabled) {
+.ui-menu-item:not(.divider):hover:not(.disabled) {
   background-color: rgba(0,0,0,0.06);
 }
-body[modality="keyboard"] .ui-menu-option:not(.divider):focus {
+body[modality="keyboard"] .ui-menu-item:not(.divider):focus {
   background-color: rgba(0,0,0,0.1);
 }
-.ui-menu-option:not(.divider).disabled {
+.ui-menu-item:not(.divider).disabled {
   opacity: 0.5;
   color: rgba(0,0,0,0.54);
 }
-.ui-menu-option:not(.divider).disabled .ui-menu-option-secondary-text {
+.ui-menu-item:not(.divider).disabled .ui-menu-item-secondary-text {
   color: rgba(0,0,0,0.54);
 }
-.ui-menu-option:not(.divider):not(.disabled) {
+.ui-menu-item:not(.divider):not(.disabled) {
   cursor: pointer;
 }
-.ui-menu-option-content.ui-menu-default {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-align: center;
-      align-items: center;
-  padding: 8px 16px;
-}
-.ui-menu-option-icon {
-  margin-right: 16px;
+.ui-menu-item-icon {
+  margin-right: 12px;
   font-size: 18px;
   color: rgba(0,0,0,0.54);
 }
-.ui-menu-option-text {
+.ui-menu-item-text {
   -ms-flex-positive: 1;
       flex-grow: 1;
 }
-.ui-menu-option-secondary-text {
+.ui-menu-item-secondary-text {
   -ms-flex-negative: 0;
       flex-shrink: 0;
   margin-left: 4px;

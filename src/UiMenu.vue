@@ -3,16 +3,15 @@
         class="ui-menu" role="menu" tabindex="-1" @keydown.esc="closeDropdown" v-el:dropdown
         :class="{ 'has-icons': showIcons, 'has-secondary-text': showSecondaryText }"
     >
-        <ui-menu-option
-            :type="option.type" :icon="option.icon" :text="option.text" :disabled="option.disabled"
-            :secondary-text="option.secondaryText" :option="option" :show-icon="showIcons"
-            :show-secondary-text="showSecondaryText" :hide-ripple-ink="hideRippleInk"
-            :partial="option.partial || partial"
+        <ui-menu-item
+            :type="o.type" :icon="o.icon" :text="o.text" :secondary-text="o.secondaryText"
+            :show-icon="showIcons" :show-secondary-text="showSecondaryText"
+            :hide-ripple-ink="hideRippleInk" :disabled="o.disabled"
 
-            @keydown.enter.prevent="optionSelect(option)" @click="optionSelect(option)"
+            @keydown.enter.prevent="optionSelect(o)" @click="optionSelect(o)"
 
-            v-for="option in options"
-        ></ui-menu-option>
+            v-for="o in options"
+        ></ui-menu-item>
 
         <div
             class="ui-menu-focus-redirector" @focus="redirectFocus" tabindex="0"
@@ -21,7 +20,7 @@
 </template>
 
 <script>
-import UiMenuOption from './UiMenuOption.vue';
+import UiMenuItem from './UiMenuItem.vue';
 
 import ShowsDropdown from './mixins/ShowsDropdown';
 
@@ -48,17 +47,9 @@ export default {
             type: Boolean,
             default: false
         },
-        closeOnSelect: {
-            type: Boolean,
-            default: true
-        },
-        partial: {
-            type: String,
-            default: 'ui-menu-default'
-        },
         id: {
             default: null
-        }
+        },
     },
 
     events: {
@@ -90,9 +81,7 @@ export default {
             if (! (option.disabled || option.type === 'divider')) {
                 this.$dispatch('option-selected', option);
 
-                if (this.closeOnSelect) {
-                    this.closeDropdown();
-                }
+                this.closeDropdown();
             }
         },
 
@@ -100,19 +89,19 @@ export default {
             if (! this.$els.dropdown.contains(e.target)) {
                 e.stopPropagation();
 
-                this.$els.dropdown.querySelector('.ui-menu-option').focus();
+                this.$els.dropdown.querySelector('.ui-menu-item').focus();
             }
         },
 
         redirectFocus(e) {
             e.stopPropagation();
 
-            this.$els.dropdown.querySelector('.ui-menu-option').focus();
+            this.$els.dropdown.querySelector('.ui-menu-item').focus();
         }
     },
 
     components: {
-        UiMenuOption
+        UiMenuItem
     },
 
     mixins: [
@@ -142,7 +131,6 @@ export default {
 
     max-height: 100vh;
     overflow-y: auto;
-    overflow-x: hidden;
 
     &.has-secondary-text {
         min-width: 208px;

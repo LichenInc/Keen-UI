@@ -103,9 +103,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _UiMenu2 = _interopRequireDefault(_UiMenu);
 	
-	var _UiMenuOption = __webpack_require__(16);
+	var _UiMenuItem = __webpack_require__(16);
 	
-	var _UiMenuOption2 = _interopRequireDefault(_UiMenuOption);
+	var _UiMenuItem2 = _interopRequireDefault(_UiMenuItem);
 	
 	var _UiModal = __webpack_require__(110);
 	
@@ -204,7 +204,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    UiIcon: _UiIcon2.default,
 	    UiIconButton: _UiIconButton2.default,
 	    UiMenu: _UiMenu2.default,
-	    UiMenuOption: _UiMenuOption2.default,
+	    UiMenuItem: _UiMenuItem2.default,
 	    UiModal: _UiModal2.default,
 	    UiPopover: _UiPopover2.default,
 	    UiPreloader: _UiPreloader2.default,
@@ -238,7 +238,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        Vue.component('ui-icon', _UiIcon2.default);
 	        Vue.component('ui-icon-button', _UiIconButton2.default);
 	        Vue.component('ui-menu', _UiMenu2.default);
-	        Vue.component('ui-menu-option', _UiMenuOption2.default);
+	        Vue.component('ui-menu-item', _UiMenuItem2.default);
 	        Vue.component('ui-modal', _UiModal2.default);
 	        Vue.component('ui-popover', _UiPopover2.default);
 	        Vue.component('ui-preloader', _UiPreloader2.default);
@@ -716,9 +716,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	    value: true
 	});
 	
-	var _UiMenuOption = __webpack_require__(16);
+	var _UiMenuItem = __webpack_require__(16);
 	
-	var _UiMenuOption2 = _interopRequireDefault(_UiMenuOption);
+	var _UiMenuItem2 = _interopRequireDefault(_UiMenuItem);
 	
 	var _ShowsDropdown = __webpack_require__(43);
 	
@@ -748,14 +748,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	        hideRippleInk: {
 	            type: Boolean,
 	            default: false
-	        },
-	        closeOnSelect: {
-	            type: Boolean,
-	            default: true
-	        },
-	        partial: {
-	            type: String,
-	            default: 'ui-menu-default'
 	        },
 	        id: {
 	            default: null
@@ -789,27 +781,25 @@ return /******/ (function(modules) { // webpackBootstrap
 	            if (!(option.disabled || option.type === 'divider')) {
 	                this.$dispatch('option-selected', option);
 	
-	                if (this.closeOnSelect) {
-	                    this.closeDropdown();
-	                }
+	                this.closeDropdown();
 	            }
 	        },
 	        restrictFocus: function restrictFocus(e) {
 	            if (!this.$els.dropdown.contains(e.target)) {
 	                e.stopPropagation();
 	
-	                this.$els.dropdown.querySelector('.ui-menu-option').focus();
+	                this.$els.dropdown.querySelector('.ui-menu-item').focus();
 	            }
 	        },
 	        redirectFocus: function redirectFocus(e) {
 	            e.stopPropagation();
 	
-	            this.$els.dropdown.querySelector('.ui-menu-option').focus();
+	            this.$els.dropdown.querySelector('.ui-menu-item').focus();
 	        }
 	    },
 	
 	    components: {
-	        UiMenuOption: _UiMenuOption2.default
+	        UiMenuItem: _UiMenuItem2.default
 	    },
 	
 	    mixins: [_ShowsDropdown2.default]
@@ -825,7 +815,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/UiMenuOption.vue: named exports in *.vue files are ignored.")}
+	  console.warn("[vue-loader] src/UiMenuItem.vue: named exports in *.vue files are ignored.")}
 	__vue_template__ = __webpack_require__(42)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
@@ -836,7 +826,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "_v-ec59533e/UiMenuOption.vue"
+	  var id = "_v-846da202/UiMenuItem.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -871,7 +861,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	exports.default = {
-	    name: 'ui-menu-option',
+	    name: 'ui-menu-item',
 	
 	    props: {
 	        type: String,
@@ -886,15 +876,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	            type: Boolean,
 	            default: false
 	        },
-	        partial: {
-	            type: String,
-	            default: 'ui-menu-default'
-	        },
 	        disabled: {
 	            type: Boolean,
 	            default: false
-	        },
-	        option: Object
+	        }
 	    },
 	
 	    computed: {
@@ -905,10 +890,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	    components: {
 	        UiIcon: _UiIcon2.default
-	    },
-	
-	    partials: {
-	        'ui-menu-default': '\n            <ui-icon\n                class="ui-menu-option-icon" :icon="icon" v-if="showIcon && !isDivider && icon"\n            ></ui-icon>\n\n            <div class="ui-menu-option-text" v-text="text" v-if="!isDivider"></div>\n\n            <div\n                class="ui-menu-option-secondary-text" v-text="secondaryText"\n                v-if="showSecondaryText && !isDivider && secondaryText"\n            ></div>\n        '
 	    },
 	
 	    mixins: [_ShowsRippleInk2.default]
@@ -2323,7 +2304,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 42 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<a\n    class=\"ui-menu-option\" role=\"menu-item\" :tabindex=\"(isDivider || disabled) ? null : '0'\"\n    :class=\"{ 'divider': isDivider, 'disabled' : disabled }\"\n>\n    <div class=\"ui-menu-option-content\" :class=\"[partial]\">\n        <partial :name=\"partial\"></partial>\n    </div>\n\n    <ui-ripple-ink\n        :trigger=\"$el\" v-if=\"!hideRippleInk && !disabled && !isDivider\"\n    ></ui-ripple-ink>\n</a>\n";
+	module.exports = "\n<a\n    class=\"ui-menu-item\" role=\"menu-item\" :tabindex=\"(isDivider || disabled) ? null : '0'\"\n    :class=\"{ 'divider': isDivider, 'disabled' : disabled }\"\n>\n    <ui-icon\n        class=\"ui-menu-item-icon\" :icon=\"icon\" v-if=\"showIcon && !isDivider && icon\"\n    ></ui-icon>\n\n    <div class=\"ui-menu-item-text\" v-text=\"text\" v-if=\"!isDivider\"></div>\n\n    <div\n        class=\"ui-menu-item-secondary-text\" v-text=\"secondaryText\"\n        v-if=\"showSecondaryText && !isDivider && secondaryText\"\n    ></div>\n\n    <ui-ripple-ink\n        :trigger=\"$el\" v-if=\"!hideRippleInk && !disabled && !isDivider\"\n    ></ui-ripple-ink>\n</a>\n";
 
 /***/ },
 /* 43 */
@@ -2429,8 +2410,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	                this.drop.close();
 	            }
 	
-	            this.drop.on('open', this.positionDrop);
 	            this.drop.on('open', this.dropdownOpened);
+	            this.drop.on('open', this.positionDrop);
 	            this.drop.on('close', this.dropdownClosed);
 	        },
 	        openDropdown: function openDropdown() {
@@ -2441,19 +2422,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	        positionDrop: function positionDrop() {
 	            var drop = this.drop;
 	            var windowWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+	            var dropWidth = drop.drop.getBoundingClientRect().width,
+	                left = drop.target.getBoundingClientRect().left,
+	                right = windowWidth - left,
+	                direction = dropWidth > right ? 'right' : 'left';
 	
-	            var dropWidth = drop.drop.getBoundingClientRect().width;
-	            var left = drop.target.getBoundingClientRect().left;
-	            var availableSpace = windowWidth - left;
-	
-	            if (dropWidth > availableSpace) {
-	                var direction = dropWidth > availableSpace ? 'right' : 'left';
-	
-	                drop.tether.attachment.left = direction;
-	                drop.tether.targetAttachment.left = direction;
-	
-	                drop.position();
-	            }
+	            drop.tether.attachment.left = direction;
+	            drop.tether.targetAttachment.left = direction;
+	            drop.position();
 	        },
 	        closeDropdown: function closeDropdown() {
 	            if (this.drop) {
@@ -4844,7 +4820,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 47 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<ul\n    class=\"ui-menu\" role=\"menu\" tabindex=\"-1\" @keydown.esc=\"closeDropdown\" v-el:dropdown\n    :class=\"{ 'has-icons': showIcons, 'has-secondary-text': showSecondaryText }\"\n>\n    <ui-menu-option\n        :type=\"option.type\" :icon=\"option.icon\" :text=\"option.text\" :disabled=\"option.disabled\"\n        :secondary-text=\"option.secondaryText\" :option=\"option\" :show-icon=\"showIcons\"\n        :show-secondary-text=\"showSecondaryText\" :hide-ripple-ink=\"hideRippleInk\"\n        :partial=\"option.partial || partial\"\n\n        @keydown.enter.prevent=\"optionSelect(option)\" @click=\"optionSelect(option)\"\n\n        v-for=\"option in options\"\n    ></ui-menu-option>\n\n    <div\n        class=\"ui-menu-focus-redirector\" @focus=\"redirectFocus\" tabindex=\"0\"\n    ></div>\n</ul>\n";
+	module.exports = "\n<ul\n    class=\"ui-menu\" role=\"menu\" tabindex=\"-1\" @keydown.esc=\"closeDropdown\" v-el:dropdown\n    :class=\"{ 'has-icons': showIcons, 'has-secondary-text': showSecondaryText }\"\n>\n    <ui-menu-item\n        :type=\"o.type\" :icon=\"o.icon\" :text=\"o.text\" :secondary-text=\"o.secondaryText\"\n        :show-icon=\"showIcons\" :show-secondary-text=\"showSecondaryText\"\n        :hide-ripple-ink=\"hideRippleInk\" :disabled=\"o.disabled\"\n\n        @keydown.enter.prevent=\"optionSelect(o)\" @click=\"optionSelect(o)\"\n\n        v-for=\"o in options\"\n    ></ui-menu-item>\n\n    <div\n        class=\"ui-menu-focus-redirector\" @focus=\"redirectFocus\" tabindex=\"0\"\n    ></div>\n</ul>\n";
 
 /***/ },
 /* 48 */
@@ -7562,9 +7538,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	    },
 	
 	    partials: {
-	        'ui-autocomplete-simple': '\n            <li class="ui-autocomplete-suggestion-item" v-text="item.text || item"></li>\n        ',
+	        'ui-autocomplete-simple': '<li class="ui-autocomplete-suggestion-item" v-text="item.text || item"></li>',
 	
-	        'ui-autocomplete-image': '\n            <div class="image" :style="{ \'background-image\': \'url(\' + item.image + \')\' }"></div>\n            <div class="text" v-text="item.text"></div>\n        '
+	        'ui-autocomplete-image': '<div class="image" :style="{ \'background-image\': \'url(\' + item.image + \')\' }"></div>\n            <div class="text" v-text="item.text"></div>'
 	    }
 	};
 
@@ -7747,7 +7723,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	            type: Boolean,
 	            default: false
 	        },
-	        validationRules: [String, Array],
+	        validationRules: String,
 	        validationMessages: Object
 	    },
 	
@@ -9664,12 +9640,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	    props: {
 	        name: String,
-	        model: {
-	            type: [Array, String, Boolean],
+	        value: {
+	            type: Boolean,
 	            required: true,
 	            twoWay: true
 	        },
-	        value: String,
 	        label: String,
 	        hideLabel: {
 	            type: Boolean,
@@ -9691,20 +9666,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	            initialValue: false
 	        };
 	    },
-	
-	
-	    computed: {
-	        isChecked: function isChecked() {
-	            if (this.value) {
-	                return this.model.indexOf(this.value) > -1;
-	            }
-	
-	            return this.model;
-	        }
-	    },
-	
 	    created: function created() {
-	        this.initialValue = this.model;
+	        this.initialValue = this.value;
 	    },
 	
 	
@@ -9714,7 +9677,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	                return;
 	            }
 	
-	            this.model = this.initialValue;
+	            this.value = this.initialValue;
 	        }
 	    },
 	
@@ -9738,7 +9701,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 102 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<label\n    class=\"ui-checkbox\"\n    :class=\"{\n        'disabled': disabled, 'checked': isChecked, 'active': active, 'label-left': labelLeft\n    }\"\n>\n    <input\n        class=\"ui-checkbox-input\" type=\"checkbox\" :name=\"name\" @focus=\"focus\" @blur=\"blur\"\n        :value=\"value ? value : null\" v-model=\"model\" v-disabled=\"disabled\"\n    >\n\n    <div class=\"ui-checkbox-checkmark\">\n        <div class=\"ui-checkbox-focus-ring\"></div>\n    </div>\n\n    <div class=\"ui-checkbox-label-text\" v-if=\"!hideLabel\">\n        <slot>\n            <span v-text=\"label\"></span>\n        </slot>\n    </div>\n</label>\n";
+	module.exports = "\n<label\n    class=\"ui-checkbox\"\n    :class=\"{ 'disabled': disabled, 'checked': value, 'active': active, 'label-left': labelLeft }\"\n>\n    <input\n        class=\"ui-checkbox-input\" type=\"checkbox\" :name=\"name\" @focus=\"focus\" @blur=\"blur\"\n        v-model=\"value\" v-disabled=\"disabled\"\n    >\n\n    <div class=\"ui-checkbox-checkmark\">\n        <div class=\"ui-checkbox-focus-ring\"></div>\n    </div>\n\n    <div class=\"ui-checkbox-label-text\" v-if=\"!hideLabel\">\n        <slot>\n            <span v-text=\"label\"></span>\n        </slot>\n    </div>\n</label>\n";
 
 /***/ },
 /* 103 */
@@ -11240,12 +11203,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	    props: {
 	        value: {
-	            type: [Object, Array, String, Number],
+	            type: [Object, Array],
 	            default: null,
 	            twoWay: true
 	        },
 	        default: {
-	            type: [Object, Array, String, Number],
+	            type: [Object, Array],
 	            default: null
 	        },
 	        options: {
@@ -11273,24 +11236,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	            type: Boolean,
 	            default: false
 	        },
-	        optionsLoaded: {
-	            type: Boolean,
-	            default: true
-	        },
 	        loading: {
 	            type: Boolean,
 	            default: false
 	        },
-	        keys: {
-	            type: Object,
-	            default: function _default() {
-	                return {
-	                    text: 'text',
-	                    value: 'value'
-	                };
-	            }
-	        },
-	        filter: Function
+	        noResults: {
+	            type: Boolean,
+	            default: false
+	        }
 	    },
 	
 	    data: function data() {
@@ -11313,17 +11266,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	            return this.options.filter(this.search);
 	        },
 	        displayText: function displayText() {
-	            var _this = this;
-	
 	            if (this.multiple && this.value.length) {
 	                var labels = this.value.map(function (value) {
-	                    return value[_this.keys.text] || value;
+	                    return value.text;
 	                });
-	
 	                return labels.join(this.multipleDelimiter);
 	            }
 	
-	            return this.value ? this.value[this.keys.text] || this.value : '';
+	            return this.value ? this.value.text : '';
 	        },
 	        hasDisplayText: function hasDisplayText() {
 	            return this.displayText && Boolean(this.displayText.length);
@@ -11332,15 +11282,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	            return Boolean(this.icon);
 	        },
 	        nothingFound: function nothingFound() {
-	            if (this.disableFiltering && !this.optionsLoaded) {
-	                return false;
+	            if (this.disableFiltering) {
+	                return this.noResults;
 	            }
 	
-	            if (this.query.length && !this.loading) {
-	                return !Boolean(this.filteredOptions.length);
-	            }
-	
-	            return false;
+	            return Boolean(this.options.length && !this.filteredOptions.length);
 	        }
 	    },
 	
@@ -11387,15 +11333,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	    events: {
-	        'ui-select::set-selected': function uiSelectSetSelected(value, id) {
-	            if (!this.eventTargetsComponent(id)) {
-	                return;
-	            }
-	
-	            this.default = value;
-	            this.initValue();
-	        },
-	
 	        'ui-input::reset': function uiInputReset(id) {
 	            if (!this.eventTargetsComponent(id)) {
 	                return;
@@ -11416,37 +11353,25 @@ return /******/ (function(modules) { // webpackBootstrap
 	            this.value = this.multiple ? [] : null;
 	
 	            if (this.default) {
-	                var defaults = Array.isArray(this.default) ? this.default : [this.default];
-	
-	                if (defaults.length) {
-	                    this.setDefaultValue(defaults);
-	                }
+	                this.setDefaultValue(this.default);
 	            }
 	        },
 	        search: function search(option) {
-	            if (this.filter) {
-	                return this.filter(option, this.query);
-	            }
-	
+	            var text = option.text.toLowerCase();
 	            var query = this.query.toLowerCase();
-	            var text = option[this.keys.text] || option;
-	
-	            if (typeof text === 'string') {
-	                text = text.toLowerCase();
-	            }
 	
 	            return (0, _fuzzysearch2.default)(query, text);
 	        },
 	        clearQuery: function clearQuery() {
-	            var _this2 = this;
+	            var _this = this;
 	
 	            this.ignoreQueryChange = true;
 	
 	            this.$nextTick(function () {
-	                _this2.query = '';
+	                _this.query = '';
 	
-	                _this2.$nextTick(function () {
-	                    _this2.ignoreQueryChange = false;
+	                _this.$nextTick(function () {
+	                    _this.ignoreQueryChange = false;
 	                });
 	            });
 	        },
@@ -11456,9 +11381,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	            if (this.multiple) {
 	                if (this.isSelected(option)) {
 	                    this.deselect(option);
-	                } else {
-	                    this.value.push(option);
+	                    return;
 	                }
+	
+	                this.value.push(option);
 	            } else {
 	                this.value = option;
 	                this.selectedIndex = index;
@@ -11491,17 +11417,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	            }
 	        },
 	        highlight: function highlight(index, preventScroll) {
-	            if (this.highlightedIndex === index || this.$refs.options.length === 0) {
+	            if (this.highlightedIndex === index) {
 	                return;
 	            }
 	
-	            var firstIndex = 0;
-	            var lastIndex = this.$refs.options.length - 1;
-	
-	            if (index < firstIndex) {
-	                index = lastIndex;
-	            } else if (index > lastIndex) {
-	                index = firstIndex;
+	            if (index < 0) {
+	                index = this.$refs.options.length - 1;
+	            } else if (index >= this.$refs.options.length) {
+	                index = 0;
 	            }
 	
 	            this.highlightedIndex = index;
@@ -11535,16 +11458,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	            this.showDropdown = true;
 	        },
 	        opened: function opened() {
-	            var _this3 = this;
+	            var _this2 = this;
 	
 	            this.$nextTick(function () {
-	                if (_this3.showSearch) {
-	                    _this3.$els.searchInput.focus();
+	                if (_this2.showSearch) {
+	                    _this2.$els.searchInput.focus();
 	                } else {
-	                    _this3.$els.dropdown.focus();
+	                    _this2.$els.dropdown.focus();
 	                }
 	
-	                _this3.scrollOptionIntoView(_this3.$els.optionsList.querySelector('.selected'));
+	                _this2.scrollOptionIntoView(_this2.$els.optionsList.querySelector('.selected'));
 	            });
 	        },
 	        close: function close(deactivate) {
@@ -11568,26 +11491,34 @@ return /******/ (function(modules) { // webpackBootstrap
 	        closed: function closed() {
 	            this.validate();
 	
-	            if (this.multiple) {
-	                this.highlightedIndex = -1;
-	            } else {
+	            if (!this.multiple) {
 	                this.highlightedIndex = this.selectedIndex;
+	            } else {
+	                this.highlightedIndex = -1;
 	            }
 	        },
 	        setDefaultValue: function setDefaultValue(defaults) {
-	            var optionValue = void 0;
-	            var defaultOptionValue = void 0;
+	            if (this.multiple) {
+	                if (!defaults.length) {
+	                    return;
+	                }
 	
-	            for (var i = 0; i < defaults.length; i++) {
-	                defaultOptionValue = defaults[i][this.keys.value] || defaults[i];
-	
-	                for (var j = 0; j < this.options.length; j++) {
-	                    optionValue = this.options[j][this.keys.value] || this.options[j];
-	
-	                    if (optionValue === defaultOptionValue) {
-	                        this.select(this.options[j], j, false);
-	                        break;
+	                for (var i = 0; i < this.options.length; i++) {
+	                    for (var j = 0; j < defaults.length; j++) {
+	                        if (this.options[i] === defaults[j]) {
+	                            this.select(this.options[i], i, false);
+	                            break;
+	                        }
 	                    }
+	                }
+	
+	                return;
+	            }
+	
+	            for (var _i = 0; _i < this.options.length; _i++) {
+	                if (this.options[_i] === defaults) {
+	                    this.select(this.options[_i], _i, false);
+	                    break;
 	                }
 	            }
 	        },
@@ -11903,15 +11834,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	        selected: {
 	            type: Boolean,
 	            default: false
-	        },
-	        keys: {
-	            type: Object,
-	            default: function _default() {
-	                return {
-	                    text: 'text',
-	                    value: 'value'
-	                };
-	            }
 	        }
 	    },
 	
@@ -11926,9 +11848,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	    },
 	
 	    partials: {
-	        'ui-select-simple': '\n            <li class="ui-select-item-text" v-text="option[keys.text] || option"></li>\n        ',
+	        'ui-select-simple': '<li class="ui-select-item-text" v-text="option.text"></li>',
 	
-	        'ui-select-image': '\n            <div\n                class="ui-select-item-image"\n                :style="{ \'background-image\': \'url(\' + option.image + \')\' }"\n            ></div>\n\n            <div class="ui-select-item-text" v-text="option[keys.text]"></div>\n        '
+	        'ui-select-image': '<div class="ui-select-item-image" :style="{ \'background-image\': \'url(\' + option.image + \')\' }"></div>\n            <div class="ui-select-item-text" v-text="option.text"></div>'
 	    }
 	};
 
@@ -11942,7 +11864,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 157 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<div\n    class=\"ui-select\" :id=\"id\" :class=\"{\n        'disabled': disabled, 'invalid': !valid, 'dirty': dirty, 'active': active,\n        'has-label': !hideLabel, 'icon-right': iconRight\n    }\"\n>\n    <div class=\"ui-select-icon-wrapper\" v-if=\"showIcon\">\n        <ui-icon :icon=\"icon\" class=\"ui-select-icon\"></ui-icon>\n    </div>\n\n    <div class=\"ui-select-content\">\n        <div\n            class=\"ui-select-label\" :tabindex=\"disabled ? null : '0'\" v-el:label\n            @focus=\"focus\" @keydown.tab=\"blur\" @click=\"toggle\" @keydown.space.prevent=\"open\"\n            @keydown.enter.prevent=\"open\"\n        >\n            <div class=\"ui-select-label-text\" v-text=\"label\" v-if=\"!hideLabel\"></div>\n\n            <div class=\"ui-select-display\">\n                <div\n                    class=\"ui-select-value\" :class=\"{ placeholder: !hasDisplayText }\"\n                    v-text=\"hasDisplayText ? displayText : placeholder\"\n                ></div>\n\n                <ui-icon icon=\"arrow_drop_down\" class=\"ui-select-dropdown-icon\"></ui-icon>\n            </div>\n\n            <div\n                class=\"ui-select-dropdown\" tabindex=\"-1\" v-show=\"showDropdown\" v-el:dropdown\n                @keydown.esc.prevent=\"close()\" @keydown.tab=\"close()\"\n                @keydown.up.prevent=\"highlight(highlightedIndex - 1)\"\n                @keydown.down.prevent=\"highlight(highlightedIndex + 1)\"\n                @keydown.enter.prevent.stop=\"selectHighlighted(highlightedIndex, $event)\"\n            >\n                <div class=\"ui-select-search\" v-if=\"showSearch\" @click.stop @keydown.space.stop>\n                    <input\n                        class=\"ui-select-search-input\" type=\"text\" v-el:search-input\n                        :placeholder=\"searchPlaceholder\" v-model=\"query\" autocomplete=\"off\"\n                    >\n\n                    <ui-progress-circular\n                        class=\"ui-select-search-spinner\" :size=\"24\" :stroke=\"4\" :show=\"loading\"\n                    ></ui-progress-circular>\n                </div>\n\n                <ul class=\"ui-select-options\" v-el:options-list>\n                    <ui-select-option\n                        :option=\"option\" :partial=\"partial\" :show-checkbox=\"multiple\" :\n                        :keys=\"keys\" @click.stop.prevent=\"select(option, index)\"\n                        @mouseover.stop=\"highlight(index, true)\"\n\n                        :highlighted=\"highlightedIndex === index\"\n                        :selected=\"isSelected(option)\"\n\n                        v-for=\"(index, option) in filteredOptions\" v-ref:options\n                    ></ui-select-option>\n\n                    <li class=\"ui-select-no-results\" v-if=\"nothingFound\">No results found</li>\n                </ul>\n            </div>\n        </div>\n\n        <div class=\"ui-select-feedback\" v-if=\"showFeedback\">\n            <div\n                class=\"ui-select-error-text\" transition=\"ui-select-feedback-toggle\"\n                v-text=\"validationError\" v-show=\"!hideValidationErrors && !valid\"\n            ></div>\n\n            <div\n                class=\"ui-select-help-text\" transition=\"ui-select-feedback-toggle\"\n                v-text=\"helpText\" v-else\n            ></div>\n        </div>\n    </div>\n</div>\n";
+	module.exports = "\n<div\n    class=\"ui-select\" :id=\"id\" :class=\"{\n        'disabled': disabled, 'invalid': !valid, 'dirty': dirty, 'active': active,\n        'has-label': !hideLabel, 'icon-right': iconRight\n    }\"\n>\n    <div class=\"ui-select-icon-wrapper\" v-if=\"showIcon\">\n        <ui-icon :icon=\"icon\" class=\"ui-select-icon\"></ui-icon>\n    </div>\n\n    <div class=\"ui-select-content\">\n        <div\n            class=\"ui-select-label\" :tabindex=\"disabled ? null : '0'\" v-el:label\n            @focus=\"focus\" @keydown.tab=\"blur\" @click=\"toggle\" @keydown.space.prevent=\"open\"\n            @keydown.enter.prevent=\"open\"\n        >\n            <div class=\"ui-select-label-text\" v-text=\"label\" v-if=\"!hideLabel\"></div>\n\n            <div class=\"ui-select-display\">\n                <div\n                    class=\"ui-select-value\" :class=\"{ placeholder: !hasDisplayText }\"\n                    v-text=\"hasDisplayText ? displayText : placeholder\"\n                ></div>\n\n                <ui-icon icon=\"arrow_drop_down\" class=\"ui-select-dropdown-icon\"></ui-icon>\n            </div>\n\n            <div\n                class=\"ui-select-dropdown\" tabindex=\"-1\" v-show=\"showDropdown\" v-el:dropdown\n                @keydown.esc.prevent=\"close()\" @keydown.tab=\"close()\"\n                @keydown.up.prevent=\"highlight(highlightedIndex - 1)\"\n                @keydown.down.prevent=\"highlight(highlightedIndex + 1)\"\n                @keydown.enter.prevent.stop=\"selectHighlighted(highlightedIndex, $event)\"\n            >\n                <div class=\"ui-select-search\" v-if=\"showSearch\" @click.stop @keydown.space.stop>\n                    <input\n                        class=\"ui-select-search-input\" type=\"text\" v-el:search-input\n                        :placeholder=\"searchPlaceholder\" v-model=\"query\"\n                    >\n\n                    <ui-progress-circular\n                        class=\"ui-select-search-spinner\" :size=\"24\" :stroke=\"4\" :show=\"loading\"\n                    ></ui-progress-circular>\n                </div>\n\n                <ul class=\"ui-select-options\" v-el:options-list>\n                    <ui-select-option\n                        :option=\"option\" :partial=\"partial\" :show-checkbox=\"multiple\"\n                        @click.stop.prevent=\"select(option, index)\"\n                        @mouseover.stop=\"highlight(index, true)\"\n\n                        :highlighted=\"highlightedIndex === index\" :selected=\"isSelected(option)\"\n\n                        v-for=\"(index, option) in filteredOptions\" v-ref:options\n                        v-if=\"!noResults\"\n                    ></ui-select-option>\n\n                    <li class=\"ui-select-no-results\" v-if=\"nothingFound\">No results found</li>\n                </ul>\n            </div>\n        </div>\n\n        <div class=\"ui-select-feedback\" v-if=\"showFeedback\">\n            <div\n                class=\"ui-select-error-text\" transition=\"ui-select-feedback-toggle\"\n                v-text=\"validationError\" v-show=\"!hideValidationErrors && !valid\"\n            ></div>\n\n            <div\n                class=\"ui-select-help-text\" transition=\"ui-select-feedback-toggle\"\n                v-text=\"helpText\" v-else\n            ></div>\n        </div>\n    </div>\n</div>\n";
 
 /***/ },
 /* 158 */

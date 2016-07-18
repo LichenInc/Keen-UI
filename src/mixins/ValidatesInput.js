@@ -16,7 +16,7 @@ export default {
             type: Boolean,
             default: false
         },
-        validationRules: [String, Array],
+        validationRules: String,
         validationMessages: Object
     },
 

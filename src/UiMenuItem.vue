@@ -1,11 +1,18 @@
 <template>
     <a
-        class="ui-menu-option" role="menu-item" :tabindex="(isDivider || disabled) ? null : '0'"
+        class="ui-menu-item" role="menu-item" :tabindex="(isDivider || disabled) ? null : '0'"
         :class="{ 'divider': isDivider, 'disabled' : disabled }"
     >
-        <div class="ui-menu-option-content" :class="[partial]">
-            <partial :name="partial"></partial>
-        </div>
+        <ui-icon
+            class="ui-menu-item-icon" :icon="icon" v-if="showIcon && !isDivider && icon"
+        ></ui-icon>
+
+        <div class="ui-menu-item-text" v-text="text" v-if="!isDivider"></div>
+
+        <div
+            class="ui-menu-item-secondary-text" v-text="secondaryText"
+            v-if="showSecondaryText && !isDivider && secondaryText"
+        ></div>
 
         <ui-ripple-ink
             :trigger="$el" v-if="!hideRippleInk && !disabled && !isDivider"
@@ -19,7 +26,7 @@ import UiIcon from './UiIcon.vue';
 import ShowsRippleInk from './mixins/ShowsRippleInk';
 
 export default {
-    name: 'ui-menu-option',
+    name: 'ui-menu-item',
 
     props: {
         type: String,
@@ -34,15 +41,10 @@ export default {
             type: Boolean,
             default: false
         },
-        partial: {
-            type: String,
-            default: 'ui-menu-default',
-        },
         disabled: {
             type: Boolean,
             default: false
-        },
-        option: Object
+        }
     },
 
     computed: {
@@ -55,21 +57,6 @@ export default {
         UiIcon
     },
 
-    partials: {
-        'ui-menu-default': `
-            <ui-icon
-                class="ui-menu-option-icon" :icon="icon" v-if="showIcon && !isDivider && icon"
-            ></ui-icon>
-
-            <div class="ui-menu-option-text" v-text="text" v-if="!isDivider"></div>
-
-            <div
-                class="ui-menu-option-secondary-text" v-text="secondaryText"
-                v-if="showSecondaryText && !isDivider && secondaryText"
-            ></div>
-        `
-    },
-
     mixins: [
         ShowsRippleInk
     ]
@@ -79,12 +66,13 @@ export default {
 <style lang="stylus">
 @import './styles/imports';
 
-.ui-menu-option {
-    @extends $disable-user-select;
+.ui-menu-item {
     font-family: $font-stack;
+
     position: relative;
     display: block;
     height: 40px;
+    @extends $disable-user-select;
 
     &.divider {
         display: block;
@@ -97,6 +85,9 @@ export default {
     }
 
     &:not(.divider) {
+        display: flex;
+        align-items: center;
+        padding: 8px 16px;
         width: 100%;
         text-decoration: none;
         color: $md-dark-text;
@@ -116,7 +107,7 @@ export default {
             opacity: 0.5;
             color: $md-dark-secondary;
 
-            .ui-menu-option-secondary-text {
+            .ui-menu-item-secondary-text {
                 color: $md-dark-secondary;
             }
         }
@@ -127,24 +118,18 @@ export default {
     }
 }
 
-.ui-menu-option-content.ui-menu-default {
-    display: flex;
-    align-items: center;
-    padding: 8px 16px;
-}
-
-.ui-menu-option-icon {
-    margin-right: 16px;
+.ui-menu-item-icon {
+    margin-right: 12px;
     font-size: 18px;
     color: $md-dark-secondary;
 }
 
-.ui-menu-option-text {
+.ui-menu-item-text {
     flex-grow: 1;
     @extends $truncate-text;
 }
 
-.ui-menu-option-secondary-text {
+.ui-menu-item-secondary-text {
     flex-shrink: 0;
     margin-left: 4px;
     font-size: 13px;

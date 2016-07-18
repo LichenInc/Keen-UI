@@ -9,32 +9,24 @@
         <h3>Examples</h3>
 
         <div class="demo">
-            <h4>Default (array of strings)</h4>
+            <h4>Default</h4>
 
             <ui-select
-                name="color" label="Favourite color" :options="colorStrings"
-                placeholder="Select a color"
+                name="color" label="Favourite color" :options="colors" placeholder="Select a color"
             ></ui-select>
 
             <h4>With default selection</h4>
 
             <ui-select
-                name="color" label="Favourite color" :options="colorStrings" default="Lavender"
-                placeholder="Select a color"
+                name="color" label="Favourite color" :options="colors" placeholder="Select a color"
+                :default="colors[0]"
             ></ui-select>
 
-            <h4>With images (array of objects)</h4>
+            <h4>With images</h4>
 
             <ui-select
                 name="color" label="Favourite color" :options="colors" partial="ui-select-image"
                 placeholder="Select a color"
-            ></ui-select>
-
-            <h4>With default selection</h4>
-
-            <ui-select
-                name="color" label="Favourite color" :options="colors" partial="ui-select-image"
-                placeholder="Select a color" :default="{ value: 'lavender' }"
             ></ui-select>
 
             <h4>With help text</h4>
@@ -58,11 +50,11 @@
                 placeholder="Select some colors" show-search multiple
             ></ui-select>
 
-            <h4>Multiple with default selection</h4>
+            <h4>Multiple with defaults selection</h4>
 
             <ui-select
                 name="color" label="Favourite colors" partial="ui-select-image" show-search multiple
-                placeholder="Select some colors" :options="colors" :default="['red', 'blue']"
+                placeholder="Select some colors" :options="colors" :default="[colors[0], colors[3]]"
             ></ui-select>
 
             <h4>With validation</h4>
@@ -93,7 +85,7 @@
                 placeholder="Select a color"
 
                 :options="dynamicSelect.options" :value.sync="dynamicSelect.value"
-                :loading="dynamicSelect.loading" :options-loaded="dynamicSelect.optionsLoaded"
+                :loading="dynamicSelect.loading" :no-results="dynamicSelect.noResults"
 
                 @query-changed="queryChanged | debounce 500"
             ></ui-select>
@@ -440,10 +432,6 @@ import UiTabs from '../../src/UiTabs.vue';
 import UiButton from '../../src/UiButton.vue';
 import UiSelect from '../../src/UiSelect.vue';
 
-let colorStrings = [
-    'Red', 'Blue', 'Green', 'Yellow', 'Purple', 'Pink', 'Lavender', 'Orange', 'Peach', 'Lime'
-];
-
 let colors = [
     {
         text: 'Red',
@@ -671,13 +659,12 @@ export default {
     data() {
         return {
             colors,
-            colorStrings,
             dynamicSelect: {
                 value: null,
                 options: [],
                 timeout: null,
                 loading: false,
-                optionsLoaded: false
+                noResults: false
             }
         };
     },
@@ -688,12 +675,7 @@ export default {
         },
 
         queryChanged(query) {
-            if (!query.length) {
-                return;
-            }
-
             this.dynamicSelect.loading = true;
-            this.dynamicSelect.optionsLoaded = false;
 
             if (this.dynamicSelect.timeout) {
                 clearTimeout(this.dynamicSelect.timeout);
@@ -705,11 +687,10 @@ export default {
                 } else if (query.toLowerCase().startsWith('blue')) {
                     this.dynamicSelect.options = blueShades;
                 } else {
-                    this.dynamicSelect.options = [];
+                    this.dynamicSelect.noResults = true;
                 }
 
                 this.dynamicSelect.loading = false;
-                this.dynamicSelect.optionsLoaded = true;
             }, 2500);
         }
     }
