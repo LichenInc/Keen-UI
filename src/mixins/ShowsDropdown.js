@@ -110,7 +110,7 @@ export default {
             const windowWidth = window.innerWidth
                 || document.documentElement.clientWidth
                 || document.body.clientWidth;
-            let dropWidth = drop.drop.getBoundingClientRect().width,
+            let dropWidth = drop.getBoundingClientRect().width,
                 left = drop.target.getBoundingClientRect().left,
                 right = windowWidth - left,
                 direction = dropWidth > right ? 'right' : 'left';
