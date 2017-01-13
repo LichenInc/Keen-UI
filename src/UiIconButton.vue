@@ -3,6 +3,7 @@
         class="ui-icon-button" :class="styleClasses" :aria-label="ariaLabel || tooltip"
         :type="buttonType" v-disabled="disabled || loading" v-el:button
     >
+        <slot></slot>
         <ui-icon
             class="ui-icon-button-icon" :icon="icon" v-show="!loading"
         ></ui-icon>

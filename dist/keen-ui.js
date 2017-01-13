@@ -1,6 +1,6 @@
 /*!
  * Keen UI v0.8.9 (https://github.com/JosephusPaye/keen-ui)
- * (c) 2016 Josephus Paye II
+ * (c) 2017 Josephus Paye II
  * Released under the MIT License.
  */
 (function webpackUniversalModuleDefinition(root, factory) {
@@ -67,27 +67,27 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _UiAlert2 = _interopRequireDefault(_UiAlert);
 	
-	var _UiAutocomplete = __webpack_require__(81);
+	var _UiAutocomplete = __webpack_require__(82);
 	
 	var _UiAutocomplete2 = _interopRequireDefault(_UiAutocomplete);
 	
-	var _UiButton = __webpack_require__(109);
+	var _UiButton = __webpack_require__(110);
 	
 	var _UiButton2 = _interopRequireDefault(_UiButton);
 	
-	var _UiCheckbox = __webpack_require__(113);
+	var _UiCheckbox = __webpack_require__(114);
 	
 	var _UiCheckbox2 = _interopRequireDefault(_UiCheckbox);
 	
-	var _UiCollapsible = __webpack_require__(117);
+	var _UiCollapsible = __webpack_require__(118);
 	
 	var _UiCollapsible2 = _interopRequireDefault(_UiCollapsible);
 	
-	var _UiConfirm = __webpack_require__(121);
+	var _UiConfirm = __webpack_require__(122);
 	
 	var _UiConfirm2 = _interopRequireDefault(_UiConfirm);
 	
-	var _UiFab = __webpack_require__(129);
+	var _UiFab = __webpack_require__(130);
 	
 	var _UiFab2 = _interopRequireDefault(_UiFab);
 	
@@ -107,7 +107,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _UiMenuOption2 = _interopRequireDefault(_UiMenuOption);
 	
-	var _UiModal = __webpack_require__(124);
+	var _UiModal = __webpack_require__(125);
 	
 	var _UiModal2 = _interopRequireDefault(_UiModal);
 	
@@ -115,7 +115,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _UiPopover2 = _interopRequireDefault(_UiPopover);
 	
-	var _UiPreloader = __webpack_require__(133);
+	var _UiPreloader = __webpack_require__(134);
 	
 	var _UiPreloader2 = _interopRequireDefault(_UiPreloader);
 	
@@ -123,27 +123,27 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _UiProgressCircular2 = _interopRequireDefault(_UiProgressCircular);
 	
-	var _UiProgressLinear = __webpack_require__(137);
+	var _UiProgressLinear = __webpack_require__(138);
 	
 	var _UiProgressLinear2 = _interopRequireDefault(_UiProgressLinear);
 	
-	var _UiRadio = __webpack_require__(141);
+	var _UiRadio = __webpack_require__(142);
 	
 	var _UiRadio2 = _interopRequireDefault(_UiRadio);
 	
-	var _UiRadioGroup = __webpack_require__(145);
+	var _UiRadioGroup = __webpack_require__(146);
 	
 	var _UiRadioGroup2 = _interopRequireDefault(_UiRadioGroup);
 	
-	var _UiRating = __webpack_require__(149);
+	var _UiRating = __webpack_require__(150);
 	
 	var _UiRating2 = _interopRequireDefault(_UiRating);
 	
-	var _UiRatingIcon = __webpack_require__(152);
+	var _UiRatingIcon = __webpack_require__(153);
 	
 	var _UiRatingIcon2 = _interopRequireDefault(_UiRatingIcon);
 	
-	var _UiRatingPreview = __webpack_require__(157);
+	var _UiRatingPreview = __webpack_require__(158);
 	
 	var _UiRatingPreview2 = _interopRequireDefault(_UiRatingPreview);
 	
@@ -151,39 +151,39 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _UiRippleInk2 = _interopRequireDefault(_UiRippleInk);
 	
-	var _UiSelect = __webpack_require__(161);
+	var _UiSelect = __webpack_require__(162);
 	
 	var _UiSelect2 = _interopRequireDefault(_UiSelect);
 	
-	var _UiSlider = __webpack_require__(172);
+	var _UiSlider = __webpack_require__(173);
 	
 	var _UiSlider2 = _interopRequireDefault(_UiSlider);
 	
-	var _UiSnackbar = __webpack_require__(184);
+	var _UiSnackbar = __webpack_require__(185);
 	
 	var _UiSnackbar2 = _interopRequireDefault(_UiSnackbar);
 	
-	var _UiSnackbarContainer = __webpack_require__(188);
+	var _UiSnackbarContainer = __webpack_require__(189);
 	
 	var _UiSnackbarContainer2 = _interopRequireDefault(_UiSnackbarContainer);
 	
-	var _UiSwitch = __webpack_require__(192);
+	var _UiSwitch = __webpack_require__(193);
 	
 	var _UiSwitch2 = _interopRequireDefault(_UiSwitch);
 	
-	var _UiTab = __webpack_require__(196);
+	var _UiTab = __webpack_require__(197);
 	
 	var _UiTab2 = _interopRequireDefault(_UiTab);
 	
-	var _UiTabs = __webpack_require__(200);
+	var _UiTabs = __webpack_require__(201);
 	
 	var _UiTabs2 = _interopRequireDefault(_UiTabs);
 	
-	var _UiTextbox = __webpack_require__(208);
+	var _UiTextbox = __webpack_require__(209);
 	
 	var _UiTextbox2 = _interopRequireDefault(_UiTextbox);
 	
-	var _UiToolbar = __webpack_require__(212);
+	var _UiToolbar = __webpack_require__(213);
 	
 	var _UiToolbar2 = _interopRequireDefault(_UiToolbar);
 	
@@ -361,8 +361,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiAlert.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(80)
+	  console.warn("[vue-loader] src/UiAlert.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(81)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -370,9 +370,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiAlert.vue"
+	  var id = "_v-741cfdbf/UiAlert.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -469,7 +469,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiIcon.vue: named exports in *.vue files are ignored.")}
+	  console.warn("[vue-loader] src/UiIcon.vue: named exports in *.vue files are ignored.")}
 	__vue_template__ = __webpack_require__(9)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
@@ -478,9 +478,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiIcon.vue"
+	  var id = "_v-7fab9566/UiIcon.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -534,8 +534,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiIconButton.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(79)
+	  console.warn("[vue-loader] src/UiIconButton.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(80)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -543,9 +543,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiIconButton.vue"
+	  var id = "_v-43724590/UiIconButton.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -681,7 +681,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiMenu.vue: named exports in *.vue files are ignored.")}
+	  console.warn("[vue-loader] src/UiMenu.vue: named exports in *.vue files are ignored.")}
 	__vue_template__ = __webpack_require__(62)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
@@ -690,9 +690,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiMenu.vue"
+	  var id = "_v-f0aae968/UiMenu.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -822,7 +822,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiMenuOption.vue: named exports in *.vue files are ignored.")}
+	  console.warn("[vue-loader] src/UiMenuOption.vue: named exports in *.vue files are ignored.")}
 	__vue_template__ = __webpack_require__(57)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
@@ -831,9 +831,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiMenuOption.vue"
+	  var id = "_v-ec59533e/UiMenuOption.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -950,7 +950,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiRippleInk.vue: named exports in *.vue files are ignored.")}
+	  console.warn("[vue-loader] src/UiRippleInk.vue: named exports in *.vue files are ignored.")}
 	__vue_template__ = __webpack_require__(56)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
@@ -959,9 +959,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiRippleInk.vue"
+	  var id = "_v-dc11350e/UiRippleInk.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -2575,7 +2575,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 60 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;/*! tether 1.2.0 */
+	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;/*! tether 1.3.1 */
 	
 	(function(root, factory) {
 	  if (true) {
@@ -2598,25 +2598,29 @@ return /******/ (function(modules) { // webpackBootstrap
 	  TetherBase = { modules: [] };
 	}
 	
-	function getScrollParent(el) {
+	var zeroElement = null;
+	
+	function getScrollParents(el) {
 	  // In firefox if the el is inside an iframe with display: none; window.getComputedStyle() will return null;
 	  // https://bugzilla.mozilla.org/show_bug.cgi?id=548397
 	  var computedStyle = getComputedStyle(el) || {};
 	  var position = computedStyle.position;
+	  var parents = [];
 	
 	  if (position === 'fixed') {
-	    return el;
+	    return [el];
 	  }
 	
 	  var parent = el;
-	  while (parent = parent.parentNode) {
+	  while ((parent = parent.parentNode) && parent && parent.nodeType === 1) {
 	    var style = undefined;
 	    try {
 	      style = getComputedStyle(parent);
 	    } catch (err) {}
 	
 	    if (typeof style === 'undefined' || style === null) {
-	      return parent;
+	      parents.push(parent);
+	      return parents;
 	    }
 	
 	    var _style = style;
@@ -2626,12 +2630,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	    if (/(auto|scroll)/.test(overflow + overflowY + overflowX)) {
 	      if (position !== 'absolute' || ['relative', 'absolute', 'fixed'].indexOf(style.position) >= 0) {
-	        return parent;
+	        parents.push(parent);
 	      }
 	    }
 	  }
 	
-	  return document.body;
+	  parents.push(document.body);
+	  return parents;
 	}
 	
 	var uniqueId = (function () {
@@ -2642,14 +2647,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	})();
 	
 	var zeroPosCache = {};
-	var getOrigin = function getOrigin(doc) {
+	var getOrigin = function getOrigin() {
 	  // getBoundingClientRect is unfortunately too accurate.  It introduces a pixel or two of
 	  // jitter as the user scrolls that messes with our ability to detect if two positions
 	  // are equivilant or not.  We place an element at the top left of the page that will
 	  // get the same jitter, so we can cancel the two out.
-	  var node = doc._tetherZeroElement;
-	  if (typeof node === 'undefined') {
-	    node = doc.createElement('div');
+	  var node = zeroElement;
+	  if (!node) {
+	    node = document.createElement('div');
 	    node.setAttribute('data-tether-id', uniqueId());
 	    extend(node.style, {
 	      top: 0,
@@ -2657,9 +2662,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	      position: 'absolute'
 	    });
 	
-	    doc.body.appendChild(node);
+	    document.body.appendChild(node);
 	
-	    doc._tetherZeroElement = node;
+	    zeroElement = node;
 	  }
 	
 	  var id = node.getAttribute('data-tether-id');
@@ -2681,6 +2686,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	  return zeroPosCache[id];
 	};
 	
+	function removeUtilElements() {
+	  if (zeroElement) {
+	    document.body.removeChild(zeroElement);
+	  }
+	  zeroElement = null;
+	};
+	
 	function getBounds(el) {
 	  var doc = undefined;
 	  if (el === document) {
@@ -2700,7 +2712,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    box[k] = rect[k];
 	  }
 	
-	  var origin = getOrigin(doc);
+	  var origin = getOrigin();
 	
 	  box.top -= origin.top;
 	  box.left -= origin.left;
@@ -2936,7 +2948,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	})();
 	
 	TetherBase.Utils = {
-	  getScrollParent: getScrollParent,
+	  getScrollParents: getScrollParents,
 	  getBounds: getBounds,
 	  getOffsetParent: getOffsetParent,
 	  extend: extend,
@@ -2948,7 +2960,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	  flush: flush,
 	  uniqueId: uniqueId,
 	  Evented: Evented,
-	  getScrollBarSize: getScrollBarSize
+	  getScrollBarSize: getScrollBarSize,
+	  removeUtilElements: removeUtilElements
 	};
 	/* globals TetherBase, performance */
 	
@@ -2958,14 +2971,18 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
 	
+	var _get = function get(_x6, _x7, _x8) { var _again = true; _function: while (_again) { var object = _x6, property = _x7, receiver = _x8; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x6 = parent; _x7 = property; _x8 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+	
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 	
 	if (typeof TetherBase === 'undefined') {
 	  throw new Error('You must include the utils.js file before tether.js');
 	}
 	
 	var _TetherBase$Utils = TetherBase.Utils;
-	var getScrollParent = _TetherBase$Utils.getScrollParent;
+	var getScrollParents = _TetherBase$Utils.getScrollParents;
 	var getBounds = _TetherBase$Utils.getBounds;
 	var getOffsetParent = _TetherBase$Utils.getOffsetParent;
 	var extend = _TetherBase$Utils.extend;
@@ -2975,6 +2992,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	var defer = _TetherBase$Utils.defer;
 	var flush = _TetherBase$Utils.flush;
 	var getScrollBarSize = _TetherBase$Utils.getScrollBarSize;
+	var removeUtilElements = _TetherBase$Utils.removeUtilElements;
 	
 	function within(a, b) {
 	  var diff = arguments.length <= 2 || arguments[2] === undefined ? 1 : arguments[2];
@@ -3033,7 +3051,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      return;
 	    }
 	
-	    if (typeof pendingTimeout !== 'undefined') {
+	    if (pendingTimeout != null) {
 	      clearTimeout(pendingTimeout);
 	      pendingTimeout = null;
 	    }
@@ -3043,7 +3061,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    lastDuration = now() - lastCall;
 	  };
 	
-	  if (typeof window !== 'undefined') {
+	  if (typeof window !== 'undefined' && typeof window.addEventListener !== 'undefined') {
 	    ['resize', 'scroll', 'touchmove'].forEach(function (event) {
 	      window.addEventListener(event, tick);
 	    });
@@ -3149,12 +3167,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 	var parseAttachment = parseOffset;
 	
-	var TetherClass = (function () {
+	var TetherClass = (function (_Evented) {
+	  _inherits(TetherClass, _Evented);
+	
 	  function TetherClass(options) {
 	    var _this = this;
 	
 	    _classCallCheck(this, TetherClass);
 	
+	    _get(Object.getPrototypeOf(TetherClass.prototype), 'constructor', this).call(this);
 	    this.position = this.position.bind(this);
 	
 	    tethers.push(this);
@@ -3245,14 +3266,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	      this.offset = parseOffset(this.options.offset);
 	      this.targetOffset = parseOffset(this.options.targetOffset);
 	
-	      if (typeof this.scrollParent !== 'undefined') {
+	      if (typeof this.scrollParents !== 'undefined') {
 	        this.disable();
 	      }
 	
 	      if (this.targetModifier === 'scroll-handle') {
-	        this.scrollParent = this.target;
+	        this.scrollParents = [this.target];
 	      } else {
-	        this.scrollParent = getScrollParent(this.target);
+	        this.scrollParents = getScrollParents(this.target);
 	      }
 	
 	      if (!(this.options.enabled === false)) {
@@ -3373,6 +3394,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }, {
 	    key: 'enable',
 	    value: function enable() {
+	      var _this3 = this;
+	
 	      var pos = arguments.length <= 0 || arguments[0] === undefined ? true : arguments[0];
 	
 	      if (!(this.options.addTargetClasses === false)) {
@@ -3381,9 +3404,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	      addClass(this.element, this.getClass('enabled'));
 	      this.enabled = true;
 	
-	      if (this.scrollParent !== document) {
-	        this.scrollParent.addEventListener('scroll', this.position);
-	      }
+	      this.scrollParents.forEach(function (parent) {
+	        if (parent !== document) {
+	          parent.addEventListener('scroll', _this3.position);
+	        }
+	      });
 	
 	      if (pos) {
 	        this.position();
@@ -3392,32 +3417,40 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }, {
 	    key: 'disable',
 	    value: function disable() {
+	      var _this4 = this;
+	
 	      removeClass(this.target, this.getClass('enabled'));
 	      removeClass(this.element, this.getClass('enabled'));
 	      this.enabled = false;
 	
-	      if (typeof this.scrollParent !== 'undefined') {
-	        this.scrollParent.removeEventListener('scroll', this.position);
+	      if (typeof this.scrollParents !== 'undefined') {
+	        this.scrollParents.forEach(function (parent) {
+	          parent.removeEventListener('scroll', _this4.position);
+	        });
 	      }
 	    }
 	  }, {
 	    key: 'destroy',
 	    value: function destroy() {
-	      var _this3 = this;
+	      var _this5 = this;
 	
 	      this.disable();
 	
 	      tethers.forEach(function (tether, i) {
-	        if (tether === _this3) {
+	        if (tether === _this5) {
 	          tethers.splice(i, 1);
-	          return;
 	        }
 	      });
+	
+	      // Remove any elements we were using for convenience from the DOM
+	      if (tethers.length === 0) {
+	        removeUtilElements();
+	      }
 	    }
 	  }, {
 	    key: 'updateAttachClasses',
 	    value: function updateAttachClasses(elementAttach, targetAttach) {
-	      var _this4 = this;
+	      var _this6 = this;
 	
 	      elementAttach = elementAttach || this.attachment;
 	      targetAttach = targetAttach || this.targetAttachment;
@@ -3450,27 +3483,27 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	      var all = [];
 	      sides.forEach(function (side) {
-	        all.push(_this4.getClass('element-attached') + '-' + side);
-	        all.push(_this4.getClass('target-attached') + '-' + side);
+	        all.push(_this6.getClass('element-attached') + '-' + side);
+	        all.push(_this6.getClass('target-attached') + '-' + side);
 	      });
 	
 	      defer(function () {
-	        if (!(typeof _this4._addAttachClasses !== 'undefined')) {
+	        if (!(typeof _this6._addAttachClasses !== 'undefined')) {
 	          return;
 	        }
 	
-	        updateClasses(_this4.element, _this4._addAttachClasses, all);
-	        if (!(_this4.options.addTargetClasses === false)) {
-	          updateClasses(_this4.target, _this4._addAttachClasses, all);
+	        updateClasses(_this6.element, _this6._addAttachClasses, all);
+	        if (!(_this6.options.addTargetClasses === false)) {
+	          updateClasses(_this6.target, _this6._addAttachClasses, all);
 	        }
 	
-	        delete _this4._addAttachClasses;
+	        delete _this6._addAttachClasses;
 	      });
 	    }
 	  }, {
 	    key: 'position',
 	    value: function position() {
-	      var _this5 = this;
+	      var _this7 = this;
 	
 	      var flushChanges = arguments.length <= 0 || arguments[0] === undefined ? true : arguments[0];
 	
@@ -3489,7 +3522,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      this.updateAttachClasses(this.attachment, targetAttachment);
 	
 	      var elementPos = this.cache('element-bounds', function () {
-	        return getBounds(_this5.element);
+	        return getBounds(_this7.element);
 	      });
 	
 	      var width = elementPos.width;
@@ -3507,7 +3540,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      }
 	
 	      var targetPos = this.cache('target-bounds', function () {
-	        return _this5.getTargetBounds();
+	        return _this7.getTargetBounds();
 	      });
 	      var targetSize = targetPos;
 	
@@ -3591,10 +3624,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	      if (typeof this.options.optimizations !== 'undefined' && this.options.optimizations.moveElement !== false && !(typeof this.targetModifier !== 'undefined')) {
 	        (function () {
-	          var offsetParent = _this5.cache('target-offsetparent', function () {
-	            return getOffsetParent(_this5.target);
+	          var offsetParent = _this7.cache('target-offsetparent', function () {
+	            return getOffsetParent(_this7.target);
 	          });
-	          var offsetPosition = _this5.cache('target-offsetparent-bounds', function () {
+	          var offsetPosition = _this7.cache('target-offsetparent-bounds', function () {
 	            return getBounds(offsetParent);
 	          });
 	          var offsetParentStyle = getComputedStyle(offsetParent);
@@ -3647,7 +3680,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }, {
 	    key: 'move',
 	    value: function move(pos) {
-	      var _this6 = this;
+	      var _this8 = this;
 	
 	      if (!(typeof this.element.parentNode !== 'undefined')) {
 	        return;
@@ -3678,8 +3711,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	      var css = { top: '', left: '', right: '', bottom: '' };
 	
 	      var transcribe = function transcribe(_same, _pos) {
-	        var hasOptimizations = typeof _this6.options.optimizations !== 'undefined';
-	        var gpu = hasOptimizations ? _this6.options.optimizations.gpu : null;
+	        var hasOptimizations = typeof _this8.options.optimizations !== 'undefined';
+	        var gpu = hasOptimizations ? _this8.options.optimizations.gpu : null;
 	        if (gpu !== false) {
 	          var yPos = undefined,
 	              xPos = undefined;
@@ -3731,14 +3764,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	      } else if (typeof same.offset !== 'undefined' && same.offset.top && same.offset.left) {
 	        (function () {
 	          css.position = 'absolute';
-	          var offsetParent = _this6.cache('target-offsetparent', function () {
-	            return getOffsetParent(_this6.target);
+	          var offsetParent = _this8.cache('target-offsetparent', function () {
+	            return getOffsetParent(_this8.target);
 	          });
 	
-	          if (getOffsetParent(_this6.element) !== offsetParent) {
+	          if (getOffsetParent(_this8.element) !== offsetParent) {
 	            defer(function () {
-	              _this6.element.parentNode.removeChild(_this6.element);
-	              offsetParent.appendChild(_this6.element);
+	              _this8.element.parentNode.removeChild(_this8.element);
+	              offsetParent.appendChild(_this8.element);
 	            });
 	          }
 	
@@ -3753,7 +3786,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      if (!moved) {
 	        var offsetParentIsBody = true;
 	        var currentNode = this.element.parentNode;
-	        while (currentNode && currentNode.tagName !== 'BODY') {
+	        while (currentNode && currentNode.nodeType === 1 && currentNode.tagName !== 'BODY') {
 	          if (getComputedStyle(currentNode).position !== 'static') {
 	            offsetParentIsBody = false;
 	            break;
@@ -3775,11 +3808,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	        var val = css[key];
 	        var elVal = this.element.style[key];
 	
-	        if (elVal !== '' && val !== '' && ['top', 'left', 'bottom', 'right'].indexOf(key) >= 0) {
-	          elVal = parseFloat(elVal);
-	          val = parseFloat(val);
-	        }
-	
 	        if (elVal !== val) {
 	          write = true;
 	          writeCSS[key] = val;
@@ -3788,14 +3816,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	      if (write) {
 	        defer(function () {
-	          extend(_this6.element.style, writeCSS);
+	          extend(_this8.element.style, writeCSS);
 	        });
 	      }
 	    }
 	  }]);
 	
 	  return TetherClass;
-	})();
+	})(Evented);
 	
 	TetherClass.modules = [];
 	
@@ -3818,7 +3846,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	function getBoundingRect(tether, to) {
 	  if (to === 'scrollParent') {
-	    to = tether.scrollParent;
+	    to = tether.scrollParents[0];
 	  } else if (to === 'window') {
 	    to = [pageXOffset, pageYOffset, innerWidth + pageXOffset, innerHeight + pageYOffset];
 	  }
@@ -3946,34 +3974,32 @@ return /******/ (function(modules) { // webpackBootstrap
 	      }
 	
 	      if (changeAttachY === 'together') {
-	        if (top < bounds[1] && tAttachment.top === 'top') {
-	          if (eAttachment.top === 'bottom') {
+	        if (tAttachment.top === 'top') {
+	          if (eAttachment.top === 'bottom' && top < bounds[1]) {
 	            top += targetHeight;
 	            tAttachment.top = 'bottom';
 	
 	            top += height;
 	            eAttachment.top = 'top';
-	          } else if (eAttachment.top === 'top') {
-	            top += targetHeight;
+	          } else if (eAttachment.top === 'top' && top + height > bounds[3] && top - (height - targetHeight) >= bounds[1]) {
+	            top -= height - targetHeight;
 	            tAttachment.top = 'bottom';
 	
-	            top -= height;
 	            eAttachment.top = 'bottom';
 	          }
 	        }
 	
-	        if (top + height > bounds[3] && tAttachment.top === 'bottom') {
-	          if (eAttachment.top === 'top') {
+	        if (tAttachment.top === 'bottom') {
+	          if (eAttachment.top === 'top' && top + height > bounds[3]) {
 	            top -= targetHeight;
 	            tAttachment.top = 'top';
 	
 	            top -= height;
 	            eAttachment.top = 'bottom';
-	          } else if (eAttachment.top === 'bottom') {
-	            top -= targetHeight;
+	          } else if (eAttachment.top === 'bottom' && top < bounds[1] && top + (height * 2 - targetHeight) <= bounds[3]) {
+	            top += height - targetHeight;
 	            tAttachment.top = 'top';
 	
-	            top += height;
 	            eAttachment.top = 'top';
 	          }
 	        }
@@ -4165,6 +4191,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	      if (tAttachment.top !== targetAttachment.top || tAttachment.left !== targetAttachment.left || eAttachment.top !== _this.attachment.top || eAttachment.left !== _this.attachment.left) {
 	        _this.updateAttachClasses(eAttachment, tAttachment);
+	        _this.trigger('update', {
+	          attachment: eAttachment,
+	          targetAttachment: tAttachment
+	        });
 	      }
 	    });
 	
@@ -4344,7 +4374,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiPopover.vue: named exports in *.vue files are ignored.")}
+	  console.warn("[vue-loader] src/UiPopover.vue: named exports in *.vue files are ignored.")}
 	__vue_template__ = __webpack_require__(66)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
@@ -4353,9 +4383,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiPopover.vue"
+	  var id = "_v-65b33fc8/UiPopover.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -4439,7 +4469,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiProgressCircular.vue: named exports in *.vue files are ignored.")}
+	  console.warn("[vue-loader] src/UiProgressCircular.vue: named exports in *.vue files are ignored.")}
 	__vue_template__ = __webpack_require__(70)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
@@ -4448,9 +4478,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiProgressCircular.vue"
+	  var id = "_v-9427004e/UiProgressCircular.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -4651,8 +4681,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiTooltip.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(78)
+	  console.warn("[vue-loader] src/UiTooltip.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(79)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -4660,9 +4690,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiTooltip.vue"
+	  var id = "_v-eb6e5bb4/UiTooltip.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -4760,7 +4790,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	(function(root, factory) {
 	  if (true) {
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(59),__webpack_require__(60)], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(59),__webpack_require__(78)], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 	  } else if (typeof exports === 'object') {
 	    module.exports = factory(require('tether-drop'), require('tether'));
 	  } else {
@@ -4898,34 +4928,1796 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 /* 78 */
-/***/ function(module, exports) {
+/***/ function(module, exports, __webpack_require__) {
 
-	module.exports = "\n<div class=\"ui-tooltip\" v-text=\"content\" v-el:tooltip></div>\n";
+	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;/*! tether 1.3.1 */
+	
+	(function(root, factory) {
+	  if (true) {
+	    !(__WEBPACK_AMD_DEFINE_FACTORY__ = (factory), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.call(exports, __webpack_require__, exports, module)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+	  } else if (typeof exports === 'object') {
+	    module.exports = factory(require, exports, module);
+	  } else {
+	    root.Tether = factory();
+	  }
+	}(this, function(require, exports, module) {
+	
+	'use strict';
+	
+	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+	
+	var TetherBase = undefined;
+	if (typeof TetherBase === 'undefined') {
+	  TetherBase = { modules: [] };
+	}
+	
+	var zeroElement = null;
+	
+	function getScrollParents(el) {
+	  // In firefox if the el is inside an iframe with display: none; window.getComputedStyle() will return null;
+	  // https://bugzilla.mozilla.org/show_bug.cgi?id=548397
+	  var computedStyle = getComputedStyle(el) || {};
+	  var position = computedStyle.position;
+	  var parents = [];
+	
+	  if (position === 'fixed') {
+	    return [el];
+	  }
+	
+	  var parent = el;
+	  while ((parent = parent.parentNode) && parent && parent.nodeType === 1) {
+	    var style = undefined;
+	    try {
+	      style = getComputedStyle(parent);
+	    } catch (err) {}
+	
+	    if (typeof style === 'undefined' || style === null) {
+	      parents.push(parent);
+	      return parents;
+	    }
+	
+	    var _style = style;
+	    var overflow = _style.overflow;
+	    var overflowX = _style.overflowX;
+	    var overflowY = _style.overflowY;
+	
+	    if (/(auto|scroll)/.test(overflow + overflowY + overflowX)) {
+	      if (position !== 'absolute' || ['relative', 'absolute', 'fixed'].indexOf(style.position) >= 0) {
+	        parents.push(parent);
+	      }
+	    }
+	  }
+	
+	  parents.push(document.body);
+	  return parents;
+	}
+	
+	var uniqueId = (function () {
+	  var id = 0;
+	  return function () {
+	    return ++id;
+	  };
+	})();
+	
+	var zeroPosCache = {};
+	var getOrigin = function getOrigin() {
+	  // getBoundingClientRect is unfortunately too accurate.  It introduces a pixel or two of
+	  // jitter as the user scrolls that messes with our ability to detect if two positions
+	  // are equivilant or not.  We place an element at the top left of the page that will
+	  // get the same jitter, so we can cancel the two out.
+	  var node = zeroElement;
+	  if (!node) {
+	    node = document.createElement('div');
+	    node.setAttribute('data-tether-id', uniqueId());
+	    extend(node.style, {
+	      top: 0,
+	      left: 0,
+	      position: 'absolute'
+	    });
+	
+	    document.body.appendChild(node);
+	
+	    zeroElement = node;
+	  }
+	
+	  var id = node.getAttribute('data-tether-id');
+	  if (typeof zeroPosCache[id] === 'undefined') {
+	    zeroPosCache[id] = {};
+	
+	    var rect = node.getBoundingClientRect();
+	    for (var k in rect) {
+	      // Can't use extend, as on IE9, elements don't resolve to be hasOwnProperty
+	      zeroPosCache[id][k] = rect[k];
+	    }
+	
+	    // Clear the cache when this position call is done
+	    defer(function () {
+	      delete zeroPosCache[id];
+	    });
+	  }
+	
+	  return zeroPosCache[id];
+	};
+	
+	function removeUtilElements() {
+	  if (zeroElement) {
+	    document.body.removeChild(zeroElement);
+	  }
+	  zeroElement = null;
+	};
+	
+	function getBounds(el) {
+	  var doc = undefined;
+	  if (el === document) {
+	    doc = document;
+	    el = document.documentElement;
+	  } else {
+	    doc = el.ownerDocument;
+	  }
+	
+	  var docEl = doc.documentElement;
+	
+	  var box = {};
+	  // The original object returned by getBoundingClientRect is immutable, so we clone it
+	  // We can't use extend because the properties are not considered part of the object by hasOwnProperty in IE9
+	  var rect = el.getBoundingClientRect();
+	  for (var k in rect) {
+	    box[k] = rect[k];
+	  }
+	
+	  var origin = getOrigin();
+	
+	  box.top -= origin.top;
+	  box.left -= origin.left;
+	
+	  if (typeof box.width === 'undefined') {
+	    box.width = document.body.scrollWidth - box.left - box.right;
+	  }
+	  if (typeof box.height === 'undefined') {
+	    box.height = document.body.scrollHeight - box.top - box.bottom;
+	  }
+	
+	  box.top = box.top - docEl.clientTop;
+	  box.left = box.left - docEl.clientLeft;
+	  box.right = doc.body.clientWidth - box.width - box.left;
+	  box.bottom = doc.body.clientHeight - box.height - box.top;
+	
+	  return box;
+	}
+	
+	function getOffsetParent(el) {
+	  return el.offsetParent || document.documentElement;
+	}
+	
+	function getScrollBarSize() {
+	  var inner = document.createElement('div');
+	  inner.style.width = '100%';
+	  inner.style.height = '200px';
+	
+	  var outer = document.createElement('div');
+	  extend(outer.style, {
+	    position: 'absolute',
+	    top: 0,
+	    left: 0,
+	    pointerEvents: 'none',
+	    visibility: 'hidden',
+	    width: '200px',
+	    height: '150px',
+	    overflow: 'hidden'
+	  });
+	
+	  outer.appendChild(inner);
+	
+	  document.body.appendChild(outer);
+	
+	  var widthContained = inner.offsetWidth;
+	  outer.style.overflow = 'scroll';
+	  var widthScroll = inner.offsetWidth;
+	
+	  if (widthContained === widthScroll) {
+	    widthScroll = outer.clientWidth;
+	  }
+	
+	  document.body.removeChild(outer);
+	
+	  var width = widthContained - widthScroll;
+	
+	  return { width: width, height: width };
+	}
+	
+	function extend() {
+	  var out = arguments.length <= 0 || arguments[0] === undefined ? {} : arguments[0];
+	
+	  var args = [];
+	
+	  Array.prototype.push.apply(args, arguments);
+	
+	  args.slice(1).forEach(function (obj) {
+	    if (obj) {
+	      for (var key in obj) {
+	        if (({}).hasOwnProperty.call(obj, key)) {
+	          out[key] = obj[key];
+	        }
+	      }
+	    }
+	  });
+	
+	  return out;
+	}
+	
+	function removeClass(el, name) {
+	  if (typeof el.classList !== 'undefined') {
+	    name.split(' ').forEach(function (cls) {
+	      if (cls.trim()) {
+	        el.classList.remove(cls);
+	      }
+	    });
+	  } else {
+	    var regex = new RegExp('(^| )' + name.split(' ').join('|') + '( |$)', 'gi');
+	    var className = getClassName(el).replace(regex, ' ');
+	    setClassName(el, className);
+	  }
+	}
+	
+	function addClass(el, name) {
+	  if (typeof el.classList !== 'undefined') {
+	    name.split(' ').forEach(function (cls) {
+	      if (cls.trim()) {
+	        el.classList.add(cls);
+	      }
+	    });
+	  } else {
+	    removeClass(el, name);
+	    var cls = getClassName(el) + (' ' + name);
+	    setClassName(el, cls);
+	  }
+	}
+	
+	function hasClass(el, name) {
+	  if (typeof el.classList !== 'undefined') {
+	    return el.classList.contains(name);
+	  }
+	  var className = getClassName(el);
+	  return new RegExp('(^| )' + name + '( |$)', 'gi').test(className);
+	}
+	
+	function getClassName(el) {
+	  if (el.className instanceof SVGAnimatedString) {
+	    return el.className.baseVal;
+	  }
+	  return el.className;
+	}
+	
+	function setClassName(el, className) {
+	  el.setAttribute('class', className);
+	}
+	
+	function updateClasses(el, add, all) {
+	  // Of the set of 'all' classes, we need the 'add' classes, and only the
+	  // 'add' classes to be set.
+	  all.forEach(function (cls) {
+	    if (add.indexOf(cls) === -1 && hasClass(el, cls)) {
+	      removeClass(el, cls);
+	    }
+	  });
+	
+	  add.forEach(function (cls) {
+	    if (!hasClass(el, cls)) {
+	      addClass(el, cls);
+	    }
+	  });
+	}
+	
+	var deferred = [];
+	
+	var defer = function defer(fn) {
+	  deferred.push(fn);
+	};
+	
+	var flush = function flush() {
+	  var fn = undefined;
+	  while (fn = deferred.pop()) {
+	    fn();
+	  }
+	};
+	
+	var Evented = (function () {
+	  function Evented() {
+	    _classCallCheck(this, Evented);
+	  }
+	
+	  _createClass(Evented, [{
+	    key: 'on',
+	    value: function on(event, handler, ctx) {
+	      var once = arguments.length <= 3 || arguments[3] === undefined ? false : arguments[3];
+	
+	      if (typeof this.bindings === 'undefined') {
+	        this.bindings = {};
+	      }
+	      if (typeof this.bindings[event] === 'undefined') {
+	        this.bindings[event] = [];
+	      }
+	      this.bindings[event].push({ handler: handler, ctx: ctx, once: once });
+	    }
+	  }, {
+	    key: 'once',
+	    value: function once(event, handler, ctx) {
+	      this.on(event, handler, ctx, true);
+	    }
+	  }, {
+	    key: 'off',
+	    value: function off(event, handler) {
+	      if (typeof this.bindings !== 'undefined' && typeof this.bindings[event] !== 'undefined') {
+	        return;
+	      }
+	
+	      if (typeof handler === 'undefined') {
+	        delete this.bindings[event];
+	      } else {
+	        var i = 0;
+	        while (i < this.bindings[event].length) {
+	          if (this.bindings[event][i].handler === handler) {
+	            this.bindings[event].splice(i, 1);
+	          } else {
+	            ++i;
+	          }
+	        }
+	      }
+	    }
+	  }, {
+	    key: 'trigger',
+	    value: function trigger(event) {
+	      if (typeof this.bindings !== 'undefined' && this.bindings[event]) {
+	        var i = 0;
+	
+	        for (var _len = arguments.length, args = Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
+	          args[_key - 1] = arguments[_key];
+	        }
+	
+	        while (i < this.bindings[event].length) {
+	          var _bindings$event$i = this.bindings[event][i];
+	          var handler = _bindings$event$i.handler;
+	          var ctx = _bindings$event$i.ctx;
+	          var once = _bindings$event$i.once;
+	
+	          var context = ctx;
+	          if (typeof context === 'undefined') {
+	            context = this;
+	          }
+	
+	          handler.apply(context, args);
+	
+	          if (once) {
+	            this.bindings[event].splice(i, 1);
+	          } else {
+	            ++i;
+	          }
+	        }
+	      }
+	    }
+	  }]);
+	
+	  return Evented;
+	})();
+	
+	TetherBase.Utils = {
+	  getScrollParents: getScrollParents,
+	  getBounds: getBounds,
+	  getOffsetParent: getOffsetParent,
+	  extend: extend,
+	  addClass: addClass,
+	  removeClass: removeClass,
+	  hasClass: hasClass,
+	  updateClasses: updateClasses,
+	  defer: defer,
+	  flush: flush,
+	  uniqueId: uniqueId,
+	  Evented: Evented,
+	  getScrollBarSize: getScrollBarSize,
+	  removeUtilElements: removeUtilElements
+	};
+	/* globals TetherBase, performance */
+	
+	'use strict';
+	
+	var _slicedToArray = (function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i['return']) _i['return'](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError('Invalid attempt to destructure non-iterable instance'); } }; })();
+	
+	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+	
+	var _get = function get(_x6, _x7, _x8) { var _again = true; _function: while (_again) { var object = _x6, property = _x7, receiver = _x8; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x6 = parent; _x7 = property; _x8 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	if (typeof TetherBase === 'undefined') {
+	  throw new Error('You must include the utils.js file before tether.js');
+	}
+	
+	var _TetherBase$Utils = TetherBase.Utils;
+	var getScrollParents = _TetherBase$Utils.getScrollParents;
+	var getBounds = _TetherBase$Utils.getBounds;
+	var getOffsetParent = _TetherBase$Utils.getOffsetParent;
+	var extend = _TetherBase$Utils.extend;
+	var addClass = _TetherBase$Utils.addClass;
+	var removeClass = _TetherBase$Utils.removeClass;
+	var updateClasses = _TetherBase$Utils.updateClasses;
+	var defer = _TetherBase$Utils.defer;
+	var flush = _TetherBase$Utils.flush;
+	var getScrollBarSize = _TetherBase$Utils.getScrollBarSize;
+	var removeUtilElements = _TetherBase$Utils.removeUtilElements;
+	
+	function within(a, b) {
+	  var diff = arguments.length <= 2 || arguments[2] === undefined ? 1 : arguments[2];
+	
+	  return a + diff >= b && b >= a - diff;
+	}
+	
+	var transformKey = (function () {
+	  if (typeof document === 'undefined') {
+	    return '';
+	  }
+	  var el = document.createElement('div');
+	
+	  var transforms = ['transform', 'webkitTransform', 'OTransform', 'MozTransform', 'msTransform'];
+	  for (var i = 0; i < transforms.length; ++i) {
+	    var key = transforms[i];
+	    if (el.style[key] !== undefined) {
+	      return key;
+	    }
+	  }
+	})();
+	
+	var tethers = [];
+	
+	var position = function position() {
+	  tethers.forEach(function (tether) {
+	    tether.position(false);
+	  });
+	  flush();
+	};
+	
+	function now() {
+	  if (typeof performance !== 'undefined' && typeof performance.now !== 'undefined') {
+	    return performance.now();
+	  }
+	  return +new Date();
+	}
+	
+	(function () {
+	  var lastCall = null;
+	  var lastDuration = null;
+	  var pendingTimeout = null;
+	
+	  var tick = function tick() {
+	    if (typeof lastDuration !== 'undefined' && lastDuration > 16) {
+	      // We voluntarily throttle ourselves if we can't manage 60fps
+	      lastDuration = Math.min(lastDuration - 16, 250);
+	
+	      // Just in case this is the last event, remember to position just once more
+	      pendingTimeout = setTimeout(tick, 250);
+	      return;
+	    }
+	
+	    if (typeof lastCall !== 'undefined' && now() - lastCall < 10) {
+	      // Some browsers call events a little too frequently, refuse to run more than is reasonable
+	      return;
+	    }
+	
+	    if (pendingTimeout != null) {
+	      clearTimeout(pendingTimeout);
+	      pendingTimeout = null;
+	    }
+	
+	    lastCall = now();
+	    position();
+	    lastDuration = now() - lastCall;
+	  };
+	
+	  if (typeof window !== 'undefined' && typeof window.addEventListener !== 'undefined') {
+	    ['resize', 'scroll', 'touchmove'].forEach(function (event) {
+	      window.addEventListener(event, tick);
+	    });
+	  }
+	})();
+	
+	var MIRROR_LR = {
+	  center: 'center',
+	  left: 'right',
+	  right: 'left'
+	};
+	
+	var MIRROR_TB = {
+	  middle: 'middle',
+	  top: 'bottom',
+	  bottom: 'top'
+	};
+	
+	var OFFSET_MAP = {
+	  top: 0,
+	  left: 0,
+	  middle: '50%',
+	  center: '50%',
+	  bottom: '100%',
+	  right: '100%'
+	};
+	
+	var autoToFixedAttachment = function autoToFixedAttachment(attachment, relativeToAttachment) {
+	  var left = attachment.left;
+	  var top = attachment.top;
+	
+	  if (left === 'auto') {
+	    left = MIRROR_LR[relativeToAttachment.left];
+	  }
+	
+	  if (top === 'auto') {
+	    top = MIRROR_TB[relativeToAttachment.top];
+	  }
+	
+	  return { left: left, top: top };
+	};
+	
+	var attachmentToOffset = function attachmentToOffset(attachment) {
+	  var left = attachment.left;
+	  var top = attachment.top;
+	
+	  if (typeof OFFSET_MAP[attachment.left] !== 'undefined') {
+	    left = OFFSET_MAP[attachment.left];
+	  }
+	
+	  if (typeof OFFSET_MAP[attachment.top] !== 'undefined') {
+	    top = OFFSET_MAP[attachment.top];
+	  }
+	
+	  return { left: left, top: top };
+	};
+	
+	function addOffset() {
+	  var out = { top: 0, left: 0 };
+	
+	  for (var _len = arguments.length, offsets = Array(_len), _key = 0; _key < _len; _key++) {
+	    offsets[_key] = arguments[_key];
+	  }
+	
+	  offsets.forEach(function (_ref) {
+	    var top = _ref.top;
+	    var left = _ref.left;
+	
+	    if (typeof top === 'string') {
+	      top = parseFloat(top, 10);
+	    }
+	    if (typeof left === 'string') {
+	      left = parseFloat(left, 10);
+	    }
+	
+	    out.top += top;
+	    out.left += left;
+	  });
+	
+	  return out;
+	}
+	
+	function offsetToPx(offset, size) {
+	  if (typeof offset.left === 'string' && offset.left.indexOf('%') !== -1) {
+	    offset.left = parseFloat(offset.left, 10) / 100 * size.width;
+	  }
+	  if (typeof offset.top === 'string' && offset.top.indexOf('%') !== -1) {
+	    offset.top = parseFloat(offset.top, 10) / 100 * size.height;
+	  }
+	
+	  return offset;
+	}
+	
+	var parseOffset = function parseOffset(value) {
+	  var _value$split = value.split(' ');
+	
+	  var _value$split2 = _slicedToArray(_value$split, 2);
+	
+	  var top = _value$split2[0];
+	  var left = _value$split2[1];
+	
+	  return { top: top, left: left };
+	};
+	var parseAttachment = parseOffset;
+	
+	var TetherClass = (function (_Evented) {
+	  _inherits(TetherClass, _Evented);
+	
+	  function TetherClass(options) {
+	    var _this = this;
+	
+	    _classCallCheck(this, TetherClass);
+	
+	    _get(Object.getPrototypeOf(TetherClass.prototype), 'constructor', this).call(this);
+	    this.position = this.position.bind(this);
+	
+	    tethers.push(this);
+	
+	    this.history = [];
+	
+	    this.setOptions(options, false);
+	
+	    TetherBase.modules.forEach(function (module) {
+	      if (typeof module.initialize !== 'undefined') {
+	        module.initialize.call(_this);
+	      }
+	    });
+	
+	    this.position();
+	  }
+	
+	  _createClass(TetherClass, [{
+	    key: 'getClass',
+	    value: function getClass() {
+	      var key = arguments.length <= 0 || arguments[0] === undefined ? '' : arguments[0];
+	      var classes = this.options.classes;
+	
+	      if (typeof classes !== 'undefined' && classes[key]) {
+	        return this.options.classes[key];
+	      } else if (this.options.classPrefix) {
+	        return this.options.classPrefix + '-' + key;
+	      } else {
+	        return key;
+	      }
+	    }
+	  }, {
+	    key: 'setOptions',
+	    value: function setOptions(options) {
+	      var _this2 = this;
+	
+	      var pos = arguments.length <= 1 || arguments[1] === undefined ? true : arguments[1];
+	
+	      var defaults = {
+	        offset: '0 0',
+	        targetOffset: '0 0',
+	        targetAttachment: 'auto auto',
+	        classPrefix: 'tether'
+	      };
+	
+	      this.options = extend(defaults, options);
+	
+	      var _options = this.options;
+	      var element = _options.element;
+	      var target = _options.target;
+	      var targetModifier = _options.targetModifier;
+	
+	      this.element = element;
+	      this.target = target;
+	      this.targetModifier = targetModifier;
+	
+	      if (this.target === 'viewport') {
+	        this.target = document.body;
+	        this.targetModifier = 'visible';
+	      } else if (this.target === 'scroll-handle') {
+	        this.target = document.body;
+	        this.targetModifier = 'scroll-handle';
+	      }
+	
+	      ['element', 'target'].forEach(function (key) {
+	        if (typeof _this2[key] === 'undefined') {
+	          throw new Error('Tether Error: Both element and target must be defined');
+	        }
+	
+	        if (typeof _this2[key].jquery !== 'undefined') {
+	          _this2[key] = _this2[key][0];
+	        } else if (typeof _this2[key] === 'string') {
+	          _this2[key] = document.querySelector(_this2[key]);
+	        }
+	      });
+	
+	      addClass(this.element, this.getClass('element'));
+	      if (!(this.options.addTargetClasses === false)) {
+	        addClass(this.target, this.getClass('target'));
+	      }
+	
+	      if (!this.options.attachment) {
+	        throw new Error('Tether Error: You must provide an attachment');
+	      }
+	
+	      this.targetAttachment = parseAttachment(this.options.targetAttachment);
+	      this.attachment = parseAttachment(this.options.attachment);
+	      this.offset = parseOffset(this.options.offset);
+	      this.targetOffset = parseOffset(this.options.targetOffset);
+	
+	      if (typeof this.scrollParents !== 'undefined') {
+	        this.disable();
+	      }
+	
+	      if (this.targetModifier === 'scroll-handle') {
+	        this.scrollParents = [this.target];
+	      } else {
+	        this.scrollParents = getScrollParents(this.target);
+	      }
+	
+	      if (!(this.options.enabled === false)) {
+	        this.enable(pos);
+	      }
+	    }
+	  }, {
+	    key: 'getTargetBounds',
+	    value: function getTargetBounds() {
+	      if (typeof this.targetModifier !== 'undefined') {
+	        if (this.targetModifier === 'visible') {
+	          if (this.target === document.body) {
+	            return { top: pageYOffset, left: pageXOffset, height: innerHeight, width: innerWidth };
+	          } else {
+	            var bounds = getBounds(this.target);
+	
+	            var out = {
+	              height: bounds.height,
+	              width: bounds.width,
+	              top: bounds.top,
+	              left: bounds.left
+	            };
+	
+	            out.height = Math.min(out.height, bounds.height - (pageYOffset - bounds.top));
+	            out.height = Math.min(out.height, bounds.height - (bounds.top + bounds.height - (pageYOffset + innerHeight)));
+	            out.height = Math.min(innerHeight, out.height);
+	            out.height -= 2;
+	
+	            out.width = Math.min(out.width, bounds.width - (pageXOffset - bounds.left));
+	            out.width = Math.min(out.width, bounds.width - (bounds.left + bounds.width - (pageXOffset + innerWidth)));
+	            out.width = Math.min(innerWidth, out.width);
+	            out.width -= 2;
+	
+	            if (out.top < pageYOffset) {
+	              out.top = pageYOffset;
+	            }
+	            if (out.left < pageXOffset) {
+	              out.left = pageXOffset;
+	            }
+	
+	            return out;
+	          }
+	        } else if (this.targetModifier === 'scroll-handle') {
+	          var bounds = undefined;
+	          var target = this.target;
+	          if (target === document.body) {
+	            target = document.documentElement;
+	
+	            bounds = {
+	              left: pageXOffset,
+	              top: pageYOffset,
+	              height: innerHeight,
+	              width: innerWidth
+	            };
+	          } else {
+	            bounds = getBounds(target);
+	          }
+	
+	          var style = getComputedStyle(target);
+	
+	          var hasBottomScroll = target.scrollWidth > target.clientWidth || [style.overflow, style.overflowX].indexOf('scroll') >= 0 || this.target !== document.body;
+	
+	          var scrollBottom = 0;
+	          if (hasBottomScroll) {
+	            scrollBottom = 15;
+	          }
+	
+	          var height = bounds.height - parseFloat(style.borderTopWidth) - parseFloat(style.borderBottomWidth) - scrollBottom;
+	
+	          var out = {
+	            width: 15,
+	            height: height * 0.975 * (height / target.scrollHeight),
+	            left: bounds.left + bounds.width - parseFloat(style.borderLeftWidth) - 15
+	          };
+	
+	          var fitAdj = 0;
+	          if (height < 408 && this.target === document.body) {
+	            fitAdj = -0.00011 * Math.pow(height, 2) - 0.00727 * height + 22.58;
+	          }
+	
+	          if (this.target !== document.body) {
+	            out.height = Math.max(out.height, 24);
+	          }
+	
+	          var scrollPercentage = this.target.scrollTop / (target.scrollHeight - height);
+	          out.top = scrollPercentage * (height - out.height - fitAdj) + bounds.top + parseFloat(style.borderTopWidth);
+	
+	          if (this.target === document.body) {
+	            out.height = Math.max(out.height, 24);
+	          }
+	
+	          return out;
+	        }
+	      } else {
+	        return getBounds(this.target);
+	      }
+	    }
+	  }, {
+	    key: 'clearCache',
+	    value: function clearCache() {
+	      this._cache = {};
+	    }
+	  }, {
+	    key: 'cache',
+	    value: function cache(k, getter) {
+	      // More than one module will often need the same DOM info, so
+	      // we keep a cache which is cleared on each position call
+	      if (typeof this._cache === 'undefined') {
+	        this._cache = {};
+	      }
+	
+	      if (typeof this._cache[k] === 'undefined') {
+	        this._cache[k] = getter.call(this);
+	      }
+	
+	      return this._cache[k];
+	    }
+	  }, {
+	    key: 'enable',
+	    value: function enable() {
+	      var _this3 = this;
+	
+	      var pos = arguments.length <= 0 || arguments[0] === undefined ? true : arguments[0];
+	
+	      if (!(this.options.addTargetClasses === false)) {
+	        addClass(this.target, this.getClass('enabled'));
+	      }
+	      addClass(this.element, this.getClass('enabled'));
+	      this.enabled = true;
+	
+	      this.scrollParents.forEach(function (parent) {
+	        if (parent !== document) {
+	          parent.addEventListener('scroll', _this3.position);
+	        }
+	      });
+	
+	      if (pos) {
+	        this.position();
+	      }
+	    }
+	  }, {
+	    key: 'disable',
+	    value: function disable() {
+	      var _this4 = this;
+	
+	      removeClass(this.target, this.getClass('enabled'));
+	      removeClass(this.element, this.getClass('enabled'));
+	      this.enabled = false;
+	
+	      if (typeof this.scrollParents !== 'undefined') {
+	        this.scrollParents.forEach(function (parent) {
+	          parent.removeEventListener('scroll', _this4.position);
+	        });
+	      }
+	    }
+	  }, {
+	    key: 'destroy',
+	    value: function destroy() {
+	      var _this5 = this;
+	
+	      this.disable();
+	
+	      tethers.forEach(function (tether, i) {
+	        if (tether === _this5) {
+	          tethers.splice(i, 1);
+	        }
+	      });
+	
+	      // Remove any elements we were using for convenience from the DOM
+	      if (tethers.length === 0) {
+	        removeUtilElements();
+	      }
+	    }
+	  }, {
+	    key: 'updateAttachClasses',
+	    value: function updateAttachClasses(elementAttach, targetAttach) {
+	      var _this6 = this;
+	
+	      elementAttach = elementAttach || this.attachment;
+	      targetAttach = targetAttach || this.targetAttachment;
+	      var sides = ['left', 'top', 'bottom', 'right', 'middle', 'center'];
+	
+	      if (typeof this._addAttachClasses !== 'undefined' && this._addAttachClasses.length) {
+	        // updateAttachClasses can be called more than once in a position call, so
+	        // we need to clean up after ourselves such that when the last defer gets
+	        // ran it doesn't add any extra classes from previous calls.
+	        this._addAttachClasses.splice(0, this._addAttachClasses.length);
+	      }
+	
+	      if (typeof this._addAttachClasses === 'undefined') {
+	        this._addAttachClasses = [];
+	      }
+	      var add = this._addAttachClasses;
+	
+	      if (elementAttach.top) {
+	        add.push(this.getClass('element-attached') + '-' + elementAttach.top);
+	      }
+	      if (elementAttach.left) {
+	        add.push(this.getClass('element-attached') + '-' + elementAttach.left);
+	      }
+	      if (targetAttach.top) {
+	        add.push(this.getClass('target-attached') + '-' + targetAttach.top);
+	      }
+	      if (targetAttach.left) {
+	        add.push(this.getClass('target-attached') + '-' + targetAttach.left);
+	      }
+	
+	      var all = [];
+	      sides.forEach(function (side) {
+	        all.push(_this6.getClass('element-attached') + '-' + side);
+	        all.push(_this6.getClass('target-attached') + '-' + side);
+	      });
+	
+	      defer(function () {
+	        if (!(typeof _this6._addAttachClasses !== 'undefined')) {
+	          return;
+	        }
+	
+	        updateClasses(_this6.element, _this6._addAttachClasses, all);
+	        if (!(_this6.options.addTargetClasses === false)) {
+	          updateClasses(_this6.target, _this6._addAttachClasses, all);
+	        }
+	
+	        delete _this6._addAttachClasses;
+	      });
+	    }
+	  }, {
+	    key: 'position',
+	    value: function position() {
+	      var _this7 = this;
+	
+	      var flushChanges = arguments.length <= 0 || arguments[0] === undefined ? true : arguments[0];
+	
+	      // flushChanges commits the changes immediately, leave true unless you are positioning multiple
+	      // tethers (in which case call Tether.Utils.flush yourself when you're done)
+	
+	      if (!this.enabled) {
+	        return;
+	      }
+	
+	      this.clearCache();
+	
+	      // Turn 'auto' attachments into the appropriate corner or edge
+	      var targetAttachment = autoToFixedAttachment(this.targetAttachment, this.attachment);
+	
+	      this.updateAttachClasses(this.attachment, targetAttachment);
+	
+	      var elementPos = this.cache('element-bounds', function () {
+	        return getBounds(_this7.element);
+	      });
+	
+	      var width = elementPos.width;
+	      var height = elementPos.height;
+	
+	      if (width === 0 && height === 0 && typeof this.lastSize !== 'undefined') {
+	        var _lastSize = this.lastSize;
+	
+	        // We cache the height and width to make it possible to position elements that are
+	        // getting hidden.
+	        width = _lastSize.width;
+	        height = _lastSize.height;
+	      } else {
+	        this.lastSize = { width: width, height: height };
+	      }
+	
+	      var targetPos = this.cache('target-bounds', function () {
+	        return _this7.getTargetBounds();
+	      });
+	      var targetSize = targetPos;
+	
+	      // Get an actual px offset from the attachment
+	      var offset = offsetToPx(attachmentToOffset(this.attachment), { width: width, height: height });
+	      var targetOffset = offsetToPx(attachmentToOffset(targetAttachment), targetSize);
+	
+	      var manualOffset = offsetToPx(this.offset, { width: width, height: height });
+	      var manualTargetOffset = offsetToPx(this.targetOffset, targetSize);
+	
+	      // Add the manually provided offset
+	      offset = addOffset(offset, manualOffset);
+	      targetOffset = addOffset(targetOffset, manualTargetOffset);
+	
+	      // It's now our goal to make (element position + offset) == (target position + target offset)
+	      var left = targetPos.left + targetOffset.left - offset.left;
+	      var top = targetPos.top + targetOffset.top - offset.top;
+	
+	      for (var i = 0; i < TetherBase.modules.length; ++i) {
+	        var _module2 = TetherBase.modules[i];
+	        var ret = _module2.position.call(this, {
+	          left: left,
+	          top: top,
+	          targetAttachment: targetAttachment,
+	          targetPos: targetPos,
+	          elementPos: elementPos,
+	          offset: offset,
+	          targetOffset: targetOffset,
+	          manualOffset: manualOffset,
+	          manualTargetOffset: manualTargetOffset,
+	          scrollbarSize: scrollbarSize,
+	          attachment: this.attachment
+	        });
+	
+	        if (ret === false) {
+	          return false;
+	        } else if (typeof ret === 'undefined' || typeof ret !== 'object') {
+	          continue;
+	        } else {
+	          top = ret.top;
+	          left = ret.left;
+	        }
+	      }
+	
+	      // We describe the position three different ways to give the optimizer
+	      // a chance to decide the best possible way to position the element
+	      // with the fewest repaints.
+	      var next = {
+	        // It's position relative to the page (absolute positioning when
+	        // the element is a child of the body)
+	        page: {
+	          top: top,
+	          left: left
+	        },
+	
+	        // It's position relative to the viewport (fixed positioning)
+	        viewport: {
+	          top: top - pageYOffset,
+	          bottom: pageYOffset - top - height + innerHeight,
+	          left: left - pageXOffset,
+	          right: pageXOffset - left - width + innerWidth
+	        }
+	      };
+	
+	      var scrollbarSize = undefined;
+	      if (document.body.scrollWidth > window.innerWidth) {
+	        scrollbarSize = this.cache('scrollbar-size', getScrollBarSize);
+	        next.viewport.bottom -= scrollbarSize.height;
+	      }
+	
+	      if (document.body.scrollHeight > window.innerHeight) {
+	        scrollbarSize = this.cache('scrollbar-size', getScrollBarSize);
+	        next.viewport.right -= scrollbarSize.width;
+	      }
+	
+	      if (['', 'static'].indexOf(document.body.style.position) === -1 || ['', 'static'].indexOf(document.body.parentElement.style.position) === -1) {
+	        // Absolute positioning in the body will be relative to the page, not the 'initial containing block'
+	        next.page.bottom = document.body.scrollHeight - top - height;
+	        next.page.right = document.body.scrollWidth - left - width;
+	      }
+	
+	      if (typeof this.options.optimizations !== 'undefined' && this.options.optimizations.moveElement !== false && !(typeof this.targetModifier !== 'undefined')) {
+	        (function () {
+	          var offsetParent = _this7.cache('target-offsetparent', function () {
+	            return getOffsetParent(_this7.target);
+	          });
+	          var offsetPosition = _this7.cache('target-offsetparent-bounds', function () {
+	            return getBounds(offsetParent);
+	          });
+	          var offsetParentStyle = getComputedStyle(offsetParent);
+	          var offsetParentSize = offsetPosition;
+	
+	          var offsetBorder = {};
+	          ['Top', 'Left', 'Bottom', 'Right'].forEach(function (side) {
+	            offsetBorder[side.toLowerCase()] = parseFloat(offsetParentStyle['border' + side + 'Width']);
+	          });
+	
+	          offsetPosition.right = document.body.scrollWidth - offsetPosition.left - offsetParentSize.width + offsetBorder.right;
+	          offsetPosition.bottom = document.body.scrollHeight - offsetPosition.top - offsetParentSize.height + offsetBorder.bottom;
+	
+	          if (next.page.top >= offsetPosition.top + offsetBorder.top && next.page.bottom >= offsetPosition.bottom) {
+	            if (next.page.left >= offsetPosition.left + offsetBorder.left && next.page.right >= offsetPosition.right) {
+	              // We're within the visible part of the target's scroll parent
+	              var scrollTop = offsetParent.scrollTop;
+	              var scrollLeft = offsetParent.scrollLeft;
+	
+	              // It's position relative to the target's offset parent (absolute positioning when
+	              // the element is moved to be a child of the target's offset parent).
+	              next.offset = {
+	                top: next.page.top - offsetPosition.top + scrollTop - offsetBorder.top,
+	                left: next.page.left - offsetPosition.left + scrollLeft - offsetBorder.left
+	              };
+	            }
+	          }
+	        })();
+	      }
+	
+	      // We could also travel up the DOM and try each containing context, rather than only
+	      // looking at the body, but we're gonna get diminishing returns.
+	
+	      this.move(next);
+	
+	      this.history.unshift(next);
+	
+	      if (this.history.length > 3) {
+	        this.history.pop();
+	      }
+	
+	      if (flushChanges) {
+	        flush();
+	      }
+	
+	      return true;
+	    }
+	
+	    // THE ISSUE
+	  }, {
+	    key: 'move',
+	    value: function move(pos) {
+	      var _this8 = this;
+	
+	      if (!(typeof this.element.parentNode !== 'undefined')) {
+	        return;
+	      }
+	
+	      var same = {};
+	
+	      for (var type in pos) {
+	        same[type] = {};
+	
+	        for (var key in pos[type]) {
+	          var found = false;
+	
+	          for (var i = 0; i < this.history.length; ++i) {
+	            var point = this.history[i];
+	            if (typeof point[type] !== 'undefined' && !within(point[type][key], pos[type][key])) {
+	              found = true;
+	              break;
+	            }
+	          }
+	
+	          if (!found) {
+	            same[type][key] = true;
+	          }
+	        }
+	      }
+	
+	      var css = { top: '', left: '', right: '', bottom: '' };
+	
+	      var transcribe = function transcribe(_same, _pos) {
+	        var hasOptimizations = typeof _this8.options.optimizations !== 'undefined';
+	        var gpu = hasOptimizations ? _this8.options.optimizations.gpu : null;
+	        if (gpu !== false) {
+	          var yPos = undefined,
+	              xPos = undefined;
+	          if (_same.top) {
+	            css.top = 0;
+	            yPos = _pos.top;
+	          } else {
+	            css.bottom = 0;
+	            yPos = -_pos.bottom;
+	          }
+	
+	          if (_same.left) {
+	            css.left = 0;
+	            xPos = _pos.left;
+	          } else {
+	            css.right = 0;
+	            xPos = -_pos.right;
+	          }
+	
+	          css[transformKey] = 'translateX(' + Math.round(xPos) + 'px) translateY(' + Math.round(yPos) + 'px)';
+	
+	          if (transformKey !== 'msTransform') {
+	            // The Z transform will keep this in the GPU (faster, and prevents artifacts),
+	            // but IE9 doesn't support 3d transforms and will choke.
+	            css[transformKey] += " translateZ(0)";
+	          }
+	        } else {
+	          if (_same.top) {
+	            css.top = _pos.top + 'px';
+	          } else {
+	            css.bottom = _pos.bottom + 'px';
+	          }
+	
+	          if (_same.left) {
+	            css.left = _pos.left + 'px';
+	          } else {
+	            css.right = _pos.right + 'px';
+	          }
+	        }
+	      };
+	
+	      var moved = false;
+	      if ((same.page.top || same.page.bottom) && (same.page.left || same.page.right)) {
+	        css.position = 'absolute';
+	        transcribe(same.page, pos.page);
+	      } else if ((same.viewport.top || same.viewport.bottom) && (same.viewport.left || same.viewport.right)) {
+	        css.position = 'fixed';
+	        transcribe(same.viewport, pos.viewport);
+	      } else if (typeof same.offset !== 'undefined' && same.offset.top && same.offset.left) {
+	        (function () {
+	          css.position = 'absolute';
+	          var offsetParent = _this8.cache('target-offsetparent', function () {
+	            return getOffsetParent(_this8.target);
+	          });
+	
+	          if (getOffsetParent(_this8.element) !== offsetParent) {
+	            defer(function () {
+	              _this8.element.parentNode.removeChild(_this8.element);
+	              offsetParent.appendChild(_this8.element);
+	            });
+	          }
+	
+	          transcribe(same.offset, pos.offset);
+	          moved = true;
+	        })();
+	      } else {
+	        css.position = 'absolute';
+	        transcribe({ top: true, left: true }, pos.page);
+	      }
+	
+	      if (!moved) {
+	        var offsetParentIsBody = true;
+	        var currentNode = this.element.parentNode;
+	        while (currentNode && currentNode.nodeType === 1 && currentNode.tagName !== 'BODY') {
+	          if (getComputedStyle(currentNode).position !== 'static') {
+	            offsetParentIsBody = false;
+	            break;
+	          }
+	
+	          currentNode = currentNode.parentNode;
+	        }
+	
+	        if (!offsetParentIsBody) {
+	          this.element.parentNode.removeChild(this.element);
+	          document.body.appendChild(this.element);
+	        }
+	      }
+	
+	      // Any css change will trigger a repaint, so let's avoid one if nothing changed
+	      var writeCSS = {};
+	      var write = false;
+	      for (var key in css) {
+	        var val = css[key];
+	        var elVal = this.element.style[key];
+	
+	        if (elVal !== val) {
+	          write = true;
+	          writeCSS[key] = val;
+	        }
+	      }
+	
+	      if (write) {
+	        defer(function () {
+	          extend(_this8.element.style, writeCSS);
+	        });
+	      }
+	    }
+	  }]);
+	
+	  return TetherClass;
+	})(Evented);
+	
+	TetherClass.modules = [];
+	
+	TetherBase.position = position;
+	
+	var Tether = extend(TetherClass, TetherBase);
+	/* globals TetherBase */
+	
+	'use strict';
+	
+	var _slicedToArray = (function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i['return']) _i['return'](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError('Invalid attempt to destructure non-iterable instance'); } }; })();
+	
+	var _TetherBase$Utils = TetherBase.Utils;
+	var getBounds = _TetherBase$Utils.getBounds;
+	var extend = _TetherBase$Utils.extend;
+	var updateClasses = _TetherBase$Utils.updateClasses;
+	var defer = _TetherBase$Utils.defer;
+	
+	var BOUNDS_FORMAT = ['left', 'top', 'right', 'bottom'];
+	
+	function getBoundingRect(tether, to) {
+	  if (to === 'scrollParent') {
+	    to = tether.scrollParents[0];
+	  } else if (to === 'window') {
+	    to = [pageXOffset, pageYOffset, innerWidth + pageXOffset, innerHeight + pageYOffset];
+	  }
+	
+	  if (to === document) {
+	    to = to.documentElement;
+	  }
+	
+	  if (typeof to.nodeType !== 'undefined') {
+	    (function () {
+	      var size = getBounds(to);
+	      var pos = size;
+	      var style = getComputedStyle(to);
+	
+	      to = [pos.left, pos.top, size.width + pos.left, size.height + pos.top];
+	
+	      BOUNDS_FORMAT.forEach(function (side, i) {
+	        side = side[0].toUpperCase() + side.substr(1);
+	        if (side === 'Top' || side === 'Left') {
+	          to[i] += parseFloat(style['border' + side + 'Width']);
+	        } else {
+	          to[i] -= parseFloat(style['border' + side + 'Width']);
+	        }
+	      });
+	    })();
+	  }
+	
+	  return to;
+	}
+	
+	TetherBase.modules.push({
+	  position: function position(_ref) {
+	    var _this = this;
+	
+	    var top = _ref.top;
+	    var left = _ref.left;
+	    var targetAttachment = _ref.targetAttachment;
+	
+	    if (!this.options.constraints) {
+	      return true;
+	    }
+	
+	    var _cache = this.cache('element-bounds', function () {
+	      return getBounds(_this.element);
+	    });
+	
+	    var height = _cache.height;
+	    var width = _cache.width;
+	
+	    if (width === 0 && height === 0 && typeof this.lastSize !== 'undefined') {
+	      var _lastSize = this.lastSize;
+	
+	      // Handle the item getting hidden as a result of our positioning without glitching
+	      // the classes in and out
+	      width = _lastSize.width;
+	      height = _lastSize.height;
+	    }
+	
+	    var targetSize = this.cache('target-bounds', function () {
+	      return _this.getTargetBounds();
+	    });
+	
+	    var targetHeight = targetSize.height;
+	    var targetWidth = targetSize.width;
+	
+	    var allClasses = [this.getClass('pinned'), this.getClass('out-of-bounds')];
+	
+	    this.options.constraints.forEach(function (constraint) {
+	      var outOfBoundsClass = constraint.outOfBoundsClass;
+	      var pinnedClass = constraint.pinnedClass;
+	
+	      if (outOfBoundsClass) {
+	        allClasses.push(outOfBoundsClass);
+	      }
+	      if (pinnedClass) {
+	        allClasses.push(pinnedClass);
+	      }
+	    });
+	
+	    allClasses.forEach(function (cls) {
+	      ['left', 'top', 'right', 'bottom'].forEach(function (side) {
+	        allClasses.push(cls + '-' + side);
+	      });
+	    });
+	
+	    var addClasses = [];
+	
+	    var tAttachment = extend({}, targetAttachment);
+	    var eAttachment = extend({}, this.attachment);
+	
+	    this.options.constraints.forEach(function (constraint) {
+	      var to = constraint.to;
+	      var attachment = constraint.attachment;
+	      var pin = constraint.pin;
+	
+	      if (typeof attachment === 'undefined') {
+	        attachment = '';
+	      }
+	
+	      var changeAttachX = undefined,
+	          changeAttachY = undefined;
+	      if (attachment.indexOf(' ') >= 0) {
+	        var _attachment$split = attachment.split(' ');
+	
+	        var _attachment$split2 = _slicedToArray(_attachment$split, 2);
+	
+	        changeAttachY = _attachment$split2[0];
+	        changeAttachX = _attachment$split2[1];
+	      } else {
+	        changeAttachX = changeAttachY = attachment;
+	      }
+	
+	      var bounds = getBoundingRect(_this, to);
+	
+	      if (changeAttachY === 'target' || changeAttachY === 'both') {
+	        if (top < bounds[1] && tAttachment.top === 'top') {
+	          top += targetHeight;
+	          tAttachment.top = 'bottom';
+	        }
+	
+	        if (top + height > bounds[3] && tAttachment.top === 'bottom') {
+	          top -= targetHeight;
+	          tAttachment.top = 'top';
+	        }
+	      }
+	
+	      if (changeAttachY === 'together') {
+	        if (tAttachment.top === 'top') {
+	          if (eAttachment.top === 'bottom' && top < bounds[1]) {
+	            top += targetHeight;
+	            tAttachment.top = 'bottom';
+	
+	            top += height;
+	            eAttachment.top = 'top';
+	          } else if (eAttachment.top === 'top' && top + height > bounds[3] && top - (height - targetHeight) >= bounds[1]) {
+	            top -= height - targetHeight;
+	            tAttachment.top = 'bottom';
+	
+	            eAttachment.top = 'bottom';
+	          }
+	        }
+	
+	        if (tAttachment.top === 'bottom') {
+	          if (eAttachment.top === 'top' && top + height > bounds[3]) {
+	            top -= targetHeight;
+	            tAttachment.top = 'top';
+	
+	            top -= height;
+	            eAttachment.top = 'bottom';
+	          } else if (eAttachment.top === 'bottom' && top < bounds[1] && top + (height * 2 - targetHeight) <= bounds[3]) {
+	            top += height - targetHeight;
+	            tAttachment.top = 'top';
+	
+	            eAttachment.top = 'top';
+	          }
+	        }
+	
+	        if (tAttachment.top === 'middle') {
+	          if (top + height > bounds[3] && eAttachment.top === 'top') {
+	            top -= height;
+	            eAttachment.top = 'bottom';
+	          } else if (top < bounds[1] && eAttachment.top === 'bottom') {
+	            top += height;
+	            eAttachment.top = 'top';
+	          }
+	        }
+	      }
+	
+	      if (changeAttachX === 'target' || changeAttachX === 'both') {
+	        if (left < bounds[0] && tAttachment.left === 'left') {
+	          left += targetWidth;
+	          tAttachment.left = 'right';
+	        }
+	
+	        if (left + width > bounds[2] && tAttachment.left === 'right') {
+	          left -= targetWidth;
+	          tAttachment.left = 'left';
+	        }
+	      }
+	
+	      if (changeAttachX === 'together') {
+	        if (left < bounds[0] && tAttachment.left === 'left') {
+	          if (eAttachment.left === 'right') {
+	            left += targetWidth;
+	            tAttachment.left = 'right';
+	
+	            left += width;
+	            eAttachment.left = 'left';
+	          } else if (eAttachment.left === 'left') {
+	            left += targetWidth;
+	            tAttachment.left = 'right';
+	
+	            left -= width;
+	            eAttachment.left = 'right';
+	          }
+	        } else if (left + width > bounds[2] && tAttachment.left === 'right') {
+	          if (eAttachment.left === 'left') {
+	            left -= targetWidth;
+	            tAttachment.left = 'left';
+	
+	            left -= width;
+	            eAttachment.left = 'right';
+	          } else if (eAttachment.left === 'right') {
+	            left -= targetWidth;
+	            tAttachment.left = 'left';
+	
+	            left += width;
+	            eAttachment.left = 'left';
+	          }
+	        } else if (tAttachment.left === 'center') {
+	          if (left + width > bounds[2] && eAttachment.left === 'left') {
+	            left -= width;
+	            eAttachment.left = 'right';
+	          } else if (left < bounds[0] && eAttachment.left === 'right') {
+	            left += width;
+	            eAttachment.left = 'left';
+	          }
+	        }
+	      }
+	
+	      if (changeAttachY === 'element' || changeAttachY === 'both') {
+	        if (top < bounds[1] && eAttachment.top === 'bottom') {
+	          top += height;
+	          eAttachment.top = 'top';
+	        }
+	
+	        if (top + height > bounds[3] && eAttachment.top === 'top') {
+	          top -= height;
+	          eAttachment.top = 'bottom';
+	        }
+	      }
+	
+	      if (changeAttachX === 'element' || changeAttachX === 'both') {
+	        if (left < bounds[0]) {
+	          if (eAttachment.left === 'right') {
+	            left += width;
+	            eAttachment.left = 'left';
+	          } else if (eAttachment.left === 'center') {
+	            left += width / 2;
+	            eAttachment.left = 'left';
+	          }
+	        }
+	
+	        if (left + width > bounds[2]) {
+	          if (eAttachment.left === 'left') {
+	            left -= width;
+	            eAttachment.left = 'right';
+	          } else if (eAttachment.left === 'center') {
+	            left -= width / 2;
+	            eAttachment.left = 'right';
+	          }
+	        }
+	      }
+	
+	      if (typeof pin === 'string') {
+	        pin = pin.split(',').map(function (p) {
+	          return p.trim();
+	        });
+	      } else if (pin === true) {
+	        pin = ['top', 'left', 'right', 'bottom'];
+	      }
+	
+	      pin = pin || [];
+	
+	      var pinned = [];
+	      var oob = [];
+	
+	      if (top < bounds[1]) {
+	        if (pin.indexOf('top') >= 0) {
+	          top = bounds[1];
+	          pinned.push('top');
+	        } else {
+	          oob.push('top');
+	        }
+	      }
+	
+	      if (top + height > bounds[3]) {
+	        if (pin.indexOf('bottom') >= 0) {
+	          top = bounds[3] - height;
+	          pinned.push('bottom');
+	        } else {
+	          oob.push('bottom');
+	        }
+	      }
+	
+	      if (left < bounds[0]) {
+	        if (pin.indexOf('left') >= 0) {
+	          left = bounds[0];
+	          pinned.push('left');
+	        } else {
+	          oob.push('left');
+	        }
+	      }
+	
+	      if (left + width > bounds[2]) {
+	        if (pin.indexOf('right') >= 0) {
+	          left = bounds[2] - width;
+	          pinned.push('right');
+	        } else {
+	          oob.push('right');
+	        }
+	      }
+	
+	      if (pinned.length) {
+	        (function () {
+	          var pinnedClass = undefined;
+	          if (typeof _this.options.pinnedClass !== 'undefined') {
+	            pinnedClass = _this.options.pinnedClass;
+	          } else {
+	            pinnedClass = _this.getClass('pinned');
+	          }
+	
+	          addClasses.push(pinnedClass);
+	          pinned.forEach(function (side) {
+	            addClasses.push(pinnedClass + '-' + side);
+	          });
+	        })();
+	      }
+	
+	      if (oob.length) {
+	        (function () {
+	          var oobClass = undefined;
+	          if (typeof _this.options.outOfBoundsClass !== 'undefined') {
+	            oobClass = _this.options.outOfBoundsClass;
+	          } else {
+	            oobClass = _this.getClass('out-of-bounds');
+	          }
+	
+	          addClasses.push(oobClass);
+	          oob.forEach(function (side) {
+	            addClasses.push(oobClass + '-' + side);
+	          });
+	        })();
+	      }
+	
+	      if (pinned.indexOf('left') >= 0 || pinned.indexOf('right') >= 0) {
+	        eAttachment.left = tAttachment.left = false;
+	      }
+	      if (pinned.indexOf('top') >= 0 || pinned.indexOf('bottom') >= 0) {
+	        eAttachment.top = tAttachment.top = false;
+	      }
+	
+	      if (tAttachment.top !== targetAttachment.top || tAttachment.left !== targetAttachment.left || eAttachment.top !== _this.attachment.top || eAttachment.left !== _this.attachment.left) {
+	        _this.updateAttachClasses(eAttachment, tAttachment);
+	        _this.trigger('update', {
+	          attachment: eAttachment,
+	          targetAttachment: tAttachment
+	        });
+	      }
+	    });
+	
+	    defer(function () {
+	      if (!(_this.options.addTargetClasses === false)) {
+	        updateClasses(_this.target, addClasses, allClasses);
+	      }
+	      updateClasses(_this.element, addClasses, allClasses);
+	    });
+	
+	    return { top: top, left: left };
+	  }
+	});
+	/* globals TetherBase */
+	
+	'use strict';
+	
+	var _TetherBase$Utils = TetherBase.Utils;
+	var getBounds = _TetherBase$Utils.getBounds;
+	var updateClasses = _TetherBase$Utils.updateClasses;
+	var defer = _TetherBase$Utils.defer;
+	
+	TetherBase.modules.push({
+	  position: function position(_ref) {
+	    var _this = this;
+	
+	    var top = _ref.top;
+	    var left = _ref.left;
+	
+	    var _cache = this.cache('element-bounds', function () {
+	      return getBounds(_this.element);
+	    });
+	
+	    var height = _cache.height;
+	    var width = _cache.width;
+	
+	    var targetPos = this.getTargetBounds();
+	
+	    var bottom = top + height;
+	    var right = left + width;
+	
+	    var abutted = [];
+	    if (top <= targetPos.bottom && bottom >= targetPos.top) {
+	      ['left', 'right'].forEach(function (side) {
+	        var targetPosSide = targetPos[side];
+	        if (targetPosSide === left || targetPosSide === right) {
+	          abutted.push(side);
+	        }
+	      });
+	    }
+	
+	    if (left <= targetPos.right && right >= targetPos.left) {
+	      ['top', 'bottom'].forEach(function (side) {
+	        var targetPosSide = targetPos[side];
+	        if (targetPosSide === top || targetPosSide === bottom) {
+	          abutted.push(side);
+	        }
+	      });
+	    }
+	
+	    var allClasses = [];
+	    var addClasses = [];
+	
+	    var sides = ['left', 'top', 'right', 'bottom'];
+	    allClasses.push(this.getClass('abutted'));
+	    sides.forEach(function (side) {
+	      allClasses.push(_this.getClass('abutted') + '-' + side);
+	    });
+	
+	    if (abutted.length) {
+	      addClasses.push(this.getClass('abutted'));
+	    }
+	
+	    abutted.forEach(function (side) {
+	      addClasses.push(_this.getClass('abutted') + '-' + side);
+	    });
+	
+	    defer(function () {
+	      if (!(_this.options.addTargetClasses === false)) {
+	        updateClasses(_this.target, addClasses, allClasses);
+	      }
+	      updateClasses(_this.element, addClasses, allClasses);
+	    });
+	
+	    return true;
+	  }
+	});
+	/* globals TetherBase */
+	
+	'use strict';
+	
+	var _slicedToArray = (function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i['return']) _i['return'](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError('Invalid attempt to destructure non-iterable instance'); } }; })();
+	
+	TetherBase.modules.push({
+	  position: function position(_ref) {
+	    var top = _ref.top;
+	    var left = _ref.left;
+	
+	    if (!this.options.shift) {
+	      return;
+	    }
+	
+	    var shift = this.options.shift;
+	    if (typeof this.options.shift === 'function') {
+	      shift = this.options.shift.call(this, { top: top, left: left });
+	    }
+	
+	    var shiftTop = undefined,
+	        shiftLeft = undefined;
+	    if (typeof shift === 'string') {
+	      shift = shift.split(' ');
+	      shift[1] = shift[1] || shift[0];
+	
+	      var _shift = shift;
+	
+	      var _shift2 = _slicedToArray(_shift, 2);
+	
+	      shiftTop = _shift2[0];
+	      shiftLeft = _shift2[1];
+	
+	      shiftTop = parseFloat(shiftTop, 10);
+	      shiftLeft = parseFloat(shiftLeft, 10);
+	    } else {
+	      shiftTop = shift.top;
+	      shiftLeft = shift.left;
+	    }
+	
+	    top += shiftTop;
+	    left += shiftLeft;
+	
+	    return { top: top, left: left };
+	  }
+	});
+	return Tether;
+	
+	}));
+
 
 /***/ },
 /* 79 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<button\n    class=\"ui-icon-button\" :class=\"styleClasses\" :aria-label=\"ariaLabel || tooltip\"\n    :type=\"buttonType\" v-disabled=\"disabled || loading\" v-el:button\n>\n    <ui-icon\n        class=\"ui-icon-button-icon\" :icon=\"icon\" v-show=\"!loading\"\n    ></ui-icon>\n\n    <ui-progress-circular\n        class=\"ui-icon-button-spinner\" :color=\"spinnerColor\" :size=\"24\" :stroke=\"4.5\"\n        disable-transition v-show=\"loading\"\n    ></ui-progress-circular>\n\n    <ui-ripple-ink v-if=\"!hideRippleInk && !disabled\" :trigger=\"$els.button\"></ui-ripple-ink>\n\n    <ui-tooltip\n        :trigger=\"$els.button\" :content=\"tooltip\" :position=\"tooltipPosition\" v-if=\"tooltip\"\n        :open-on=\"openTooltipOn\"\n    ></ui-tooltip>\n\n    <ui-menu\n        class=\"ui-button-dropdown-menu\" :trigger=\"$els.button\" :options=\"menuOptions\"\n        :show-icons=\"showMenuIcons\" :show-secondary-text=\"showMenuSecondaryText\"\n        :open-on=\"openDropdownOn\" @option-selected=\"menuOptionSelect\"\n        :dropdown-position=\"dropdownPosition\" v-if=\"hasDropdownMenu\"\n    ></ui-menu>\n\n    <ui-popover\n        :trigger=\"$els.button\" :open-on=\"openDropdownOn\" :dropdown-position=\"dropdownPosition\"\n        v-if=\"hasPopover\"\n    >\n        <slot name=\"popover\"></slot>\n    </ui-popover>\n</button>\n";
+	module.exports = "\n<div class=\"ui-tooltip\" v-text=\"content\" v-el:tooltip></div>\n";
 
 /***/ },
 /* 80 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<div class=\"ui-alert\">\n    <div\n        class=\"ui-alert-body\" :class=\"[type]\" role=\"alert\" v-show=\"show\"\n        transition=\"ui-alert-toggle\"\n    >\n        <ui-icon class=\"ui-alert-icon\" :icon=\"iconName\" v-if=\"!hideIcon\"></ui-icon>\n\n        <div class=\"ui-alert-text\">\n            <slot>\n                <span v-text=\"text\"></span>\n            </slot>\n        </div>\n\n        <ui-icon-button\n            class=\"ui-alert-close-button\" type=\"clear\" icon=\"&#xE5CD\" aria-label=\"Close\"\n            @click=\"close\" v-if=\"dismissible\"\n        ></ui-icon-button>\n    </div>\n</div>\n";
+	module.exports = "\n<button\n    class=\"ui-icon-button\" :class=\"styleClasses\" :aria-label=\"ariaLabel || tooltip\"\n    :type=\"buttonType\" v-disabled=\"disabled || loading\" v-el:button\n>\n    <slot></slot>\n    <ui-icon\n        class=\"ui-icon-button-icon\" :icon=\"icon\" v-show=\"!loading\"\n    ></ui-icon>\n\n    <ui-progress-circular\n        class=\"ui-icon-button-spinner\" :color=\"spinnerColor\" :size=\"24\" :stroke=\"4.5\"\n        disable-transition v-show=\"loading\"\n    ></ui-progress-circular>\n\n    <ui-ripple-ink v-if=\"!hideRippleInk && !disabled\" :trigger=\"$els.button\"></ui-ripple-ink>\n\n    <ui-tooltip\n        :trigger=\"$els.button\" :content=\"tooltip\" :position=\"tooltipPosition\" v-if=\"tooltip\"\n        :open-on=\"openTooltipOn\"\n    ></ui-tooltip>\n\n    <ui-menu\n        class=\"ui-button-dropdown-menu\" :trigger=\"$els.button\" :options=\"menuOptions\"\n        :show-icons=\"showMenuIcons\" :show-secondary-text=\"showMenuSecondaryText\"\n        :open-on=\"openDropdownOn\" @option-selected=\"menuOptionSelect\"\n        :dropdown-position=\"dropdownPosition\" v-if=\"hasDropdownMenu\"\n    ></ui-menu>\n\n    <ui-popover\n        :trigger=\"$els.button\" :open-on=\"openDropdownOn\" :dropdown-position=\"dropdownPosition\"\n        v-if=\"hasPopover\"\n    >\n        <slot name=\"popover\"></slot>\n    </ui-popover>\n</button>\n";
 
 /***/ },
 /* 81 */
+/***/ function(module, exports) {
+
+	module.exports = "\n<div class=\"ui-alert\">\n    <div\n        class=\"ui-alert-body\" :class=\"[type]\" role=\"alert\" v-show=\"show\"\n        transition=\"ui-alert-toggle\"\n    >\n        <ui-icon class=\"ui-alert-icon\" :icon=\"iconName\" v-if=\"!hideIcon\"></ui-icon>\n\n        <div class=\"ui-alert-text\">\n            <slot>\n                <span v-text=\"text\"></span>\n            </slot>\n        </div>\n\n        <ui-icon-button\n            class=\"ui-alert-close-button\" type=\"clear\" icon=\"&#xE5CD\" aria-label=\"Close\"\n            @click=\"close\" v-if=\"dismissible\"\n        ></ui-icon-button>\n    </div>\n</div>\n";
+
+/***/ },
+/* 82 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(82)
-	__vue_script__ = __webpack_require__(83)
+	__webpack_require__(83)
+	__vue_script__ = __webpack_require__(84)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiAutocomplete.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(108)
+	  console.warn("[vue-loader] src/UiAutocomplete.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(109)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -4933,9 +6725,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiAutocomplete.vue"
+	  var id = "_v-2e4d5756/UiAutocomplete.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -4944,13 +6736,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 82 */
+/* 83 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 83 */
+/* 84 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -4959,7 +6751,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    value: true
 	});
 	
-	var _fuzzysearch = __webpack_require__(84);
+	var _fuzzysearch = __webpack_require__(85);
 	
 	var _fuzzysearch2 = _interopRequireDefault(_fuzzysearch);
 	
@@ -4967,19 +6759,19 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _UiIcon2 = _interopRequireDefault(_UiIcon);
 	
-	var _UiAutocompleteSuggestion = __webpack_require__(85);
+	var _UiAutocompleteSuggestion = __webpack_require__(86);
 	
 	var _UiAutocompleteSuggestion2 = _interopRequireDefault(_UiAutocompleteSuggestion);
 	
-	var _autofocus = __webpack_require__(90);
+	var _autofocus = __webpack_require__(91);
 	
 	var _autofocus2 = _interopRequireDefault(_autofocus);
 	
-	var _HasTextInput = __webpack_require__(91);
+	var _HasTextInput = __webpack_require__(92);
 	
 	var _HasTextInput2 = _interopRequireDefault(_HasTextInput);
 	
-	var _ValidatesInput = __webpack_require__(92);
+	var _ValidatesInput = __webpack_require__(93);
 	
 	var _ValidatesInput2 = _interopRequireDefault(_ValidatesInput);
 	
@@ -5199,7 +6991,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 84 */
+/* 85 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -5229,17 +7021,17 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 85 */
+/* 86 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(86)
-	__vue_script__ = __webpack_require__(87)
+	__webpack_require__(87)
+	__vue_script__ = __webpack_require__(88)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiAutocompleteSuggestion.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(89)
+	  console.warn("[vue-loader] src/UiAutocompleteSuggestion.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(90)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -5247,9 +7039,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiAutocompleteSuggestion.vue"
+	  var id = "_v-3eebff8e/UiAutocompleteSuggestion.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -5258,13 +7050,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 86 */
+/* 87 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 87 */
+/* 88 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -5273,7 +7065,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    value: true
 	});
 	
-	var _uuid = __webpack_require__(88);
+	var _uuid = __webpack_require__(89);
 	
 	var _uuid2 = _interopRequireDefault(_uuid);
 	
@@ -5320,7 +7112,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 88 */
+/* 89 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -5364,13 +7156,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 89 */
+/* 90 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<li\n    class=\"ui-autocomplete-suggestion\" :class=\"[partial, { 'highlighted': highlighted }]\"\n    :id=\"id\"\n>\n    <partial :name=\"partial\"></partial>\n</li>\n";
 
 /***/ },
-/* 90 */
+/* 91 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -5384,7 +7176,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 91 */
+/* 92 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -5467,7 +7259,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 92 */
+/* 93 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -5476,7 +7268,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    value: true
 	});
 	
-	var _validatorjs = __webpack_require__(93);
+	var _validatorjs = __webpack_require__(94);
 	
 	var _validatorjs2 = _interopRequireDefault(_validatorjs);
 	
@@ -5550,14 +7342,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 93 */
+/* 94 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var Rules = __webpack_require__(94);
-	var Lang = __webpack_require__(95);
-	var Errors = __webpack_require__(106);
-	var Attributes = __webpack_require__(97);
-	var AsyncResolvers = __webpack_require__(107);
+	var Rules = __webpack_require__(95);
+	var Lang = __webpack_require__(96);
+	var Errors = __webpack_require__(107);
+	var Attributes = __webpack_require__(98);
+	var AsyncResolvers = __webpack_require__(108);
 	
 	var Validator = function(input, rules, customMessages) {
 	  var lang = Validator.getDefaultLang();
@@ -5992,7 +7784,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 94 */
+/* 95 */
 /***/ function(module, exports) {
 
 	var rules = {
@@ -6414,12 +8206,12 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 95 */
+/* 96 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var Messages = __webpack_require__(96);
+	var Messages = __webpack_require__(97);
 	
-	__webpack_require__(98);
+	__webpack_require__(99);
 	
 	var container = {
 	
@@ -6461,7 +8253,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	   */
 	  _load: function(lang) {
 	    if (!this.messages[lang]) {
-	      var rawMessages = __webpack_require__(99)("./" + lang);
+	      var rawMessages = __webpack_require__(100)("./" + lang);
 	      this._set(lang, rawMessages);
 	    }
 	  },
@@ -6494,10 +8286,10 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 96 */
+/* 97 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var Attributes = __webpack_require__(97);
+	var Attributes = __webpack_require__(98);
 	
 	var Messages = function(lang, messages) {
 	  this.lang = lang;
@@ -6652,7 +8444,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 97 */
+/* 98 */
 /***/ function(module, exports) {
 
 	var replacements = {
@@ -6699,7 +8491,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 98 */
+/* 99 */
 /***/ function(module, exports) {
 
 	module.exports = {
@@ -6740,24 +8532,24 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 99 */
+/* 100 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var map = {
-		"./en": 98,
-		"./en.js": 98,
-		"./es": 100,
-		"./es.js": 100,
-		"./fr": 101,
-		"./fr.js": 101,
-		"./it": 102,
-		"./it.js": 102,
-		"./ja": 103,
-		"./ja.js": 103,
-		"./pl": 104,
-		"./pl.js": 104,
-		"./ru": 105,
-		"./ru.js": 105
+		"./en": 99,
+		"./en.js": 99,
+		"./es": 101,
+		"./es.js": 101,
+		"./fr": 102,
+		"./fr.js": 102,
+		"./it": 103,
+		"./it.js": 103,
+		"./ja": 104,
+		"./ja.js": 104,
+		"./pl": 105,
+		"./pl.js": 105,
+		"./ru": 106,
+		"./ru.js": 106
 	};
 	function webpackContext(req) {
 		return __webpack_require__(webpackContextResolve(req));
@@ -6770,11 +8562,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 	webpackContext.resolve = webpackContextResolve;
 	module.exports = webpackContext;
-	webpackContext.id = 99;
+	webpackContext.id = 100;
 
 
 /***/ },
-/* 100 */
+/* 101 */
 /***/ function(module, exports) {
 
 	module.exports = {
@@ -6813,7 +8605,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 101 */
+/* 102 */
 /***/ function(module, exports) {
 
 	module.exports = {
@@ -6853,7 +8645,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 102 */
+/* 103 */
 /***/ function(module, exports) {
 
 	module.exports = {
@@ -6894,7 +8686,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 103 */
+/* 104 */
 /***/ function(module, exports) {
 
 	module.exports = {
@@ -6934,7 +8726,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 104 */
+/* 105 */
 /***/ function(module, exports) {
 
 	module.exports = {
@@ -6975,7 +8767,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 105 */
+/* 106 */
 /***/ function(module, exports) {
 
 	module.exports = {
@@ -7015,7 +8807,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 106 */
+/* 107 */
 /***/ function(module, exports) {
 
 	var Errors = function() {
@@ -7098,7 +8890,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 107 */
+/* 108 */
 /***/ function(module, exports) {
 
 	function AsyncResolvers(onFailedOne, onResolvedAll) {
@@ -7185,23 +8977,23 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 108 */
+/* 109 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<div\n    class=\"ui-autocomplete\" v-el:autocomplete\n    :class=\"{\n        'disabled': disabled, 'invalid': !valid, 'dirty': dirty, 'active': active,\n        'has-label': !hideLabel, 'icon-right': iconRight\n    }\"\n>\n    <div class=\"ui-autocomplete-icon-wrapper\" v-if=\"showIcon\">\n        <ui-icon :icon=\"icon\" class=\"ui-autocomplete-icon\"></ui-icon>\n    </div>\n\n    <div class=\"ui-autocomplete-content\">\n        <label class=\"ui-autocomplete-label\">\n            <div class=\"ui-autocomplete-label-text\" v-text=\"label\" v-if=\"!hideLabel\"></div>\n\n            <ui-icon\n                class=\"ui-autocomplete-clear-button\" icon=\"&#xE5CD\" title=\"Clear\"\n                @click=\"clearSearch\" v-show=\"!disabled && value.length\"\n            ></ui-icon>\n\n            <input\n                class=\"ui-autocomplete-input\" :placeholder=\"placeholder\" :name=\"name\"\n                :id=\"id\" autocomplete=\"off\" v-autofocus=\"autofocus\" :debounce=\"debounce\"\n\n                @focus=\"focus\" @blur=\"blur\" @keydown.up.prevent=\"highlight(highlightedItem - 1)\"\n                @keydown.down.prevent=\"highlight(highlightedItem + 1)\" @keydown.tab=\"close\"\n                @keydown.enter=\"selectHighlighted(highlightedItem, $event)\"\n\n                v-model=\"value\" v-disabled=\"disabled\" v-el:input\n            >\n\n            <ul class=\"ui-autocomplete-suggestions\" v-show=\"showDropdown\">\n                <ui-autocomplete-suggestion\n                    :highlighted=\"highlightedItem === index\" :item=\"item\" :partial=\"partial\"\n                    :keys=\"keys\"\n\n                    v-for=\"(index, item) in suggestions | filterBy search | limitBy limit\"\n                    v-ref:items @click=\"select(item)\"\n                ></ui-autocomplete-suggestion>\n            </ul>\n        </label>\n\n        <div class=\"ui-autocomplete-feedback\" v-if=\"showFeedback\">\n            <div\n                class=\"ui-autocomplete-error-text\" v-text=\"validationError\"\n                transition=\"ui-autocomplete-feedback-toggle\"\n                v-show=\"!hideValidationErrors && !valid\"\n            ></div>\n\n            <div\n                class=\"ui-autocomplete-help-text\" transition=\"ui-autocomplete-feedback-toggle\"\n                v-text=\"helpText\" v-else\n            ></div>\n        </div>\n    </div>\n</div>\n";
 
 /***/ },
-/* 109 */
+/* 110 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(110)
-	__vue_script__ = __webpack_require__(111)
+	__webpack_require__(111)
+	__vue_script__ = __webpack_require__(112)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiButton.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(112)
+	  console.warn("[vue-loader] src/UiButton.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(113)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -7209,9 +9001,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiButton.vue"
+	  var id = "_v-95e1cb42/UiButton.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -7220,13 +9012,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 110 */
+/* 111 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 111 */
+/* 112 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -7349,23 +9141,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 112 */
+/* 113 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<button\n    class=\"ui-button\" :class=\"styleClasses\" :type=\"buttonType\" v-disabled=\"disabled || loading\"\n    v-el:button\n>\n    <div class=\"ui-button-content\" :class=\"{ 'invisible': loading }\">\n        <ui-icon\n            class=\"ui-button-icon\" :class=\"{ 'position-right': iconRight }\" :icon=\"icon\"\n            v-if=\"showIcon\"\n        ></ui-icon>\n\n        <div class=\"ui-button-text\">\n            <slot>\n                <span v-text=\"text\"></span>\n            </slot>\n        </div>\n\n        <ui-icon\n            class=\"ui-button-dropdown-icon\" icon=\"&#xE5C5;\"\n            v-if=\"!iconRight && showDropdownIcon && (hasDropdownMenu || hasPopover)\"\n        ></ui-icon>\n    </div>\n\n    <ui-progress-circular\n        class=\"ui-button-spinner\" :color=\"spinnerColor\" :size=\"18\" :stroke=\"4.5\"\n        disable-transition v-show=\"loading\"\n    ></ui-progress-circular>\n\n    <ui-ripple-ink v-if=\"!hideRippleInk && !disabled\" :trigger=\"$els.button\"></ui-ripple-ink>\n\n    <ui-menu\n        class=\"ui-button-dropdown-menu\" :trigger=\"$els.button\" :options=\"menuOptions\"\n        :show-icons=\"showMenuIcons\" :show-secondary-text=\"showMenuSecondaryText\"\n        :open-on=\"openDropdownOn\" @option-selected=\"menuOptionSelect\"\n        :dropdown-position=\"dropdownPosition\" v-if=\"hasDropdownMenu\"\n    ></ui-menu>\n\n    <ui-popover\n        :trigger=\"$els.button\" :open-on=\"openDropdownOn\" :dropdown-position=\"dropdownPosition\"\n        v-if=\"hasPopover\"\n    >\n        <slot name=\"popover\"></slot>\n    </ui-popover>\n</button>\n";
 
 /***/ },
-/* 113 */
+/* 114 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(114)
-	__vue_script__ = __webpack_require__(115)
+	__webpack_require__(115)
+	__vue_script__ = __webpack_require__(116)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiCheckbox.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(116)
+	  console.warn("[vue-loader] src/UiCheckbox.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(117)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -7373,9 +9165,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiCheckbox.vue"
+	  var id = "_v-51854d30/UiCheckbox.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -7384,13 +9176,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 114 */
+/* 115 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 115 */
+/* 116 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -7485,23 +9277,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 116 */
+/* 117 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<label\n    class=\"ui-checkbox\"\n    :class=\"{\n        'disabled': disabled, 'checked': isChecked, 'active': active, 'label-left': labelLeft\n    }\"\n>\n    <input\n        class=\"ui-checkbox-input\" type=\"checkbox\" :name=\"name\" @focus=\"focus\" @blur=\"blur\"\n        :value=\"value ? value : null\" v-model=\"model\" v-disabled=\"disabled\"\n    >\n\n    <div class=\"ui-checkbox-checkmark\">\n        <div class=\"ui-checkbox-focus-ring\"></div>\n    </div>\n\n    <div class=\"ui-checkbox-label-text\" v-if=\"!hideLabel\">\n        <slot>\n            <span v-text=\"label\"></span>\n        </slot>\n    </div>\n</label>\n";
 
 /***/ },
-/* 117 */
+/* 118 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(118)
-	__vue_script__ = __webpack_require__(119)
+	__webpack_require__(119)
+	__vue_script__ = __webpack_require__(120)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiCollapsible.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(120)
+	  console.warn("[vue-loader] src/UiCollapsible.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(121)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -7509,9 +9301,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiCollapsible.vue"
+	  var id = "_v-1206192d/UiCollapsible.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -7520,13 +9312,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 118 */
+/* 119 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 119 */
+/* 120 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -7539,7 +9331,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _UiIcon2 = _interopRequireDefault(_UiIcon);
 	
-	var _uuid = __webpack_require__(88);
+	var _uuid = __webpack_require__(89);
 	
 	var _uuid2 = _interopRequireDefault(_uuid);
 	
@@ -7665,23 +9457,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 120 */
+/* 121 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<div class=\"ui-collapsible\">\n    <button\n        class=\"ui-collapsible-header\" :class=\"{ 'disabled': disabled }\" :aria-controls=\"id\"\n        :aria-expanded=\"open ? 'true' : 'false'\" @click=\"toggleMenu\" v-disabled=\"disabled\"\n        v-el:button\n    >\n        <div class=\"ui-collapsible-header-content\">\n            <slot name=\"header\">\n                <div v-text=\"header\"></div>\n            </slot>\n        </div>\n\n        <ui-icon class=\"ui-collapsible-header-icon\" :icon=\"icon\" v-if=\"!hideIcon\"></ui-icon>\n\n        <ui-ripple-ink\n            v-if=\"!hideRippleInk && !disabled && isReady\" :trigger=\"$els.button\"\n        ></ui-ripple-ink>\n    </button>\n\n    <div\n        class=\"ui-collapsible-body-wrapper\" :transition=\"transition\"\n        :style=\"{ 'height': calculatedHeight }\" v-show=\"open\"v-el:body\n    >\n        <div class=\"ui-collapsible-body\" :id=\"id\" :aria-hidden=\"open ? null : 'true'\">\n            <slot></slot>\n        </div>\n    </div>\n</div>\n";
 
 /***/ },
-/* 121 */
+/* 122 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(122)
-	__vue_script__ = __webpack_require__(123)
+	__webpack_require__(123)
+	__vue_script__ = __webpack_require__(124)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiConfirm.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(128)
+	  console.warn("[vue-loader] src/UiConfirm.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(129)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -7689,9 +9481,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiConfirm.vue"
+	  var id = "_v-6cda4263/UiConfirm.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -7700,13 +9492,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 122 */
+/* 123 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 123 */
+/* 124 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -7719,11 +9511,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _classlist2 = _interopRequireDefault(_classlist);
 	
-	var _UiModal = __webpack_require__(124);
+	var _UiModal = __webpack_require__(125);
 	
 	var _UiModal2 = _interopRequireDefault(_UiModal);
 	
-	var _UiButton = __webpack_require__(109);
+	var _UiButton = __webpack_require__(110);
 	
 	var _UiButton2 = _interopRequireDefault(_UiButton);
 	
@@ -7826,17 +9618,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 124 */
+/* 125 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(125)
-	__vue_script__ = __webpack_require__(126)
+	__webpack_require__(126)
+	__vue_script__ = __webpack_require__(127)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiModal.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(127)
+	  console.warn("[vue-loader] src/UiModal.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(128)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -7844,9 +9636,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiModal.vue"
+	  var id = "_v-4c9c5e90/UiModal.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -7855,13 +9647,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 125 */
+/* 126 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 126 */
+/* 127 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -7878,7 +9670,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _UiIconButton2 = _interopRequireDefault(_UiIconButton);
 	
-	var _UiButton = __webpack_require__(109);
+	var _UiButton = __webpack_require__(110);
 	
 	var _UiButton2 = _interopRequireDefault(_UiButton);
 	
@@ -8025,29 +9817,29 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 127 */
+/* 128 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<div\n    class=\"ui-modal ui-modal-mask\" v-show=\"show\" :transition=\"transition\" :class=\"[type]\"\n    :role=\"role\" @transitionend=\"transitionEnd | debounce 100\"\n>\n    <div class=\"ui-modal-wrapper\" @click=\"close\" v-el:modal-mask>\n        <div\n            class=\"ui-modal-container\" tabindex=\"-1\" @keydown.esc=\"close\"\n            v-el:modal-container\n        >\n            <div class=\"ui-modal-header\">\n                <slot name=\"header\">\n                    <h1 v-text=\"header\" class=\"ui-modal-header-text\"></h1>\n                </slot>\n\n                <ui-icon-button\n                    type=\"clear\" icon=\"&#xE5CD\" class=\"ui-modal-close-button\" @click=\"close\"\n                    :disabled=\"!dismissible\" v-if=\"showCloseButton\" v-el:close-button\n                ></ui-icon-button>\n            </div>\n\n            <div class=\"ui-modal-body\">\n                <slot>\n                    <div v-text=\"body\"></div>\n                </slot>\n            </div>\n\n            <div class=\"ui-modal-footer\" v-if=\"!hideFooter\">\n                <slot name=\"footer\">\n                    <ui-button @click=\"close\" v-if=\"dismissible\">Close</ui-button>\n                </slot>\n            </div>\n\n            <div class=\"focus-redirector\" @focus=\"redirectFocus\" tabindex=\"0\"></div>\n        </div>\n    </div>\n</div>\n";
 
 /***/ },
-/* 128 */
+/* 129 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<div class=\"ui-confirm\">\n    <ui-modal\n        :show.sync=\"show\" role=\"alertdialog\" :header=\"header\" @opened=\"opened\" show-close-button\n        :dismissible=\"!loading\" :backdrop-dismissible=\"backdropDismissible\"\n    >\n        <div class=\"ui-confirm-message\">\n            <slot></slot>\n        </div>\n\n        <div slot=\"footer\">\n            <ui-button\n                :color=\"type\" :text=\"confirmButtonText\" :icon=\"confirmButtonIcon\"\n                @click=\"confirm\" :loading=\"loading\" v-el:confirm-button\n            ></ui-button>\n\n            <ui-button\n                :text=\"denyButtonText\" :icon=\"denyButtonIcon\" @click=\"deny\"\n                :disabled=\"loading\" v-el:deny-button\n            ></ui-button>\n        </div>\n    </ui-modal>\n</div>\n";
 
 /***/ },
-/* 129 */
+/* 130 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(130)
-	__vue_script__ = __webpack_require__(131)
+	__webpack_require__(131)
+	__vue_script__ = __webpack_require__(132)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiFab.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(132)
+	  console.warn("[vue-loader] src/UiFab.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(133)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -8055,9 +9847,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiFab.vue"
+	  var id = "_v-45e4aeac/UiFab.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -8066,13 +9858,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 130 */
+/* 131 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 131 */
+/* 132 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -8139,23 +9931,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 132 */
+/* 133 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<button\n    class=\"ui-fab\" :class=\"[this.type, this.color]\" :aria-label=\"ariaLabel || tooltip\"\n    v-disabled=\"disabled\" v-el:button\n>\n    <ui-icon class=\"ui-fab-icon\" :icon=\"icon\"></ui-icon>\n\n    <ui-ripple-ink :trigger=\"$els.button\" v-if=\"!hideRippleInk && !disabled\"></ui-ripple-ink>\n\n    <ui-tooltip\n        :trigger=\"$els.button\" :content=\"tooltip\" :position=\"tooltipPosition\" v-if=\"tooltip\"\n        :open-on=\"openTooltipOn\"\n    ></ui-tooltip>\n</button>\n";
 
 /***/ },
-/* 133 */
+/* 134 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(134)
-	__vue_script__ = __webpack_require__(135)
+	__webpack_require__(135)
+	__vue_script__ = __webpack_require__(136)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiPreloader.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(136)
+	  console.warn("[vue-loader] src/UiPreloader.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(137)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -8163,9 +9955,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiPreloader.vue"
+	  var id = "_v-65ce9659/UiPreloader.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -8174,13 +9966,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 134 */
+/* 135 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 135 */
+/* 136 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -8200,23 +9992,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 136 */
+/* 137 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<div class=\"ui-preloader\">\n    <div\n        class=\"ui-preloader-progressbar\" :class=\"{ 'loading' : show }\"\n        :aria-busy=\"show ? 'true' : false\" role=\"progressbar\"\n    ></div>\n</div>\n";
 
 /***/ },
-/* 137 */
+/* 138 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(138)
-	__vue_script__ = __webpack_require__(139)
+	__webpack_require__(139)
+	__vue_script__ = __webpack_require__(140)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiProgressLinear.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(140)
+	  console.warn("[vue-loader] src/UiProgressLinear.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(141)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -8224,9 +10016,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiProgressLinear.vue"
+	  var id = "_v-0a991442/UiProgressLinear.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -8235,13 +10027,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 138 */
+/* 139 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 139 */
+/* 140 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -8289,23 +10081,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 140 */
+/* 141 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<div\n    class=\"ui-progress-linear\" :class=\"[color]\" v-show=\"show\"\n    transition=\"ui-progress-linear-toggle\"\n>\n    <div\n        class=\"ui-progress-linear-determinate\" :style=\"{ 'width': progress + '%' }\"\n        role=\"progressbar\" :aria-valuemin=\"0\" :aria-valuemax=\"100\" :aria-valuenow=\"value\"\n        v-if=\"type === 'determinate'\"\n    ></div>\n\n    <div\n        class=\"ui-progress-linear-indeterminate\" role=\"progressbar\" :aria-valuemin=\"0\"\n        :aria-valuemax=\"100\" v-else\n    ></div>\n</div>\n";
 
 /***/ },
-/* 141 */
+/* 142 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(142)
-	__vue_script__ = __webpack_require__(143)
+	__webpack_require__(143)
+	__vue_script__ = __webpack_require__(144)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiRadio.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(144)
+	  console.warn("[vue-loader] src/UiRadio.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(145)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -8313,9 +10105,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiRadio.vue"
+	  var id = "_v-dd19be44/UiRadio.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -8324,13 +10116,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 142 */
+/* 143 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 143 */
+/* 144 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -8402,23 +10194,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 144 */
+/* 145 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<label\n    class=\"ui-radio\"\n    :class=\"{ 'disabled': disabled, 'checked': active, 'label-left': labelLeft }\"\n>\n    <div class=\"ui-radio-input-wrapper\">\n        <input\n            class=\"ui-radio-input\" type=\"radio\" :id=\"id\" :name=\"name\" :value=\"value\"\n            :checked=\"checked\" @focus=\"focus\" @blur=\"blur\" v-model=\"model\" v-disabled=\"disabled\"\n        >\n\n        <span class=\"ui-radio-border\"></span>\n        <span class=\"ui-radio-inner-dot\"></span>\n    </div>\n\n    <div class=\"ui-radio-label-text\" v-if=\"!hideLabel\">\n        <slot>\n            <span v-text=\"label\"></span>\n        </slot>\n    </div>\n</label>\n";
 
 /***/ },
-/* 145 */
+/* 146 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(146)
-	__vue_script__ = __webpack_require__(147)
+	__webpack_require__(147)
+	__vue_script__ = __webpack_require__(148)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiRadioGroup.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(148)
+	  console.warn("[vue-loader] src/UiRadioGroup.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(149)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -8426,9 +10218,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiRadioGroup.vue"
+	  var id = "_v-33a7fef1/UiRadioGroup.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -8437,13 +10229,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 146 */
+/* 147 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 147 */
+/* 148 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -8456,7 +10248,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _disabled2 = _interopRequireDefault(_disabled);
 	
-	var _UiRadio = __webpack_require__(141);
+	var _UiRadio = __webpack_require__(142);
 	
 	var _UiRadio2 = _interopRequireDefault(_UiRadio);
 	
@@ -8547,23 +10339,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 148 */
+/* 149 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<div\n    class=\"ui-radio-group\" :id=\"id\"\n    :class=\"{ 'disabled': disabled, 'active': active, 'vertical': vertical }\"\n>\n    <div class=\"ui-radio-group-label\" v-text=\"label\" v-if=\"!hideLabel\"></div>\n\n    <div class=\"ui-radio-group-options-wrapper\">\n        <ui-radio\n            class=\"ui-radio-group-radio\" v-for=\"option in options\" :model.sync=\"value\"\n            :name=\"name\" :label=\"option.text || option\" :value=\"option.value || option\"\n            :disabled=\"disabled || option.disabled\" @focussed=\"focus\" @blurred=\"blur\"\n        ></ui-radio>\n    </div>\n\n    <div\n        class=\"ui-radio-group-feedback\" v-if=\"showFeedback\"\n        transition=\"ui-radio-group-feedback-toggle\"\n    >\n        <div class=\"ui-radio-group-help-text\" v-text=\"helpText\"></div>\n    </div>\n</div>\n";
 
 /***/ },
-/* 149 */
+/* 150 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(150)
-	__vue_script__ = __webpack_require__(151)
+	__webpack_require__(151)
+	__vue_script__ = __webpack_require__(152)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiRating.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(156)
+	  console.warn("[vue-loader] src/UiRating.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(157)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -8571,9 +10363,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiRating.vue"
+	  var id = "_v-1c51774a/UiRating.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -8582,13 +10374,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 150 */
+/* 151 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 151 */
+/* 152 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -8597,7 +10389,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    value: true
 	});
 	
-	var _UiRatingIcon = __webpack_require__(152);
+	var _UiRatingIcon = __webpack_require__(153);
 	
 	var _UiRatingIcon2 = _interopRequireDefault(_UiRatingIcon);
 	
@@ -8753,17 +10545,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 152 */
+/* 153 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(153)
-	__vue_script__ = __webpack_require__(154)
+	__webpack_require__(154)
+	__vue_script__ = __webpack_require__(155)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiRatingIcon.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(155)
+	  console.warn("[vue-loader] src/UiRatingIcon.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(156)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -8771,9 +10563,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiRatingIcon.vue"
+	  var id = "_v-1ad28a63/UiRatingIcon.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -8782,13 +10574,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 153 */
+/* 154 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 154 */
+/* 155 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -8836,29 +10628,29 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 155 */
+/* 156 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<div class=\"ui-rating-icon\">\n    <ui-icon\n        class=\"ui-rating-icon-icon\" :icon=\"icon\"\n        :class=\"{ 'selected': selected, 'filled' : filled }\"\n    ></ui-icon>\n</div>\n";
 
 /***/ },
-/* 156 */
+/* 157 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<div\n    class=\"ui-rating\" :class=\"{ 'disabled': disabled, 'preview': previewing, 'active': active }\"\n\n    :tabindex=\"disabled ? null : 0\" role=\"slider\" :aria-valuemin=\"0\" :aria-valuemax=\"total\"\n    :aria-valuenow=\"previewValue\"\n\n    @keydown.up.prevent=\"incrementPreviewValue\" @keydown.down.prevent=\"decrementPreviewValue\"\n    @keydown.right.prevent=\"incrementPreviewValue\" @keydown.left.prevent=\"decrementPreviewValue\"\n    @keydown.enter.prevent=\"commitValue(previewValue)\" @focus=\"focus\" @blur=\"blur\"\n>\n    <div class=\"ui-rating-label\" v-text=\"label\" v-if=\"!hideLabel\"></div>\n\n    <div\n        class=\"ui-rating-icons-wrapper\" @mouseenter=\"startPreview\" @mouseleave=\"endPreview\"\n    >\n        <ui-rating-icon\n            :type=\"type\" v-for=\"n in total\" :selected=\"(n + 1) <= value\" @mouseover=\"preview(n)\"\n            :filled=\"(n + 1) <= previewValue\" @click=\"commitValue(n + 1)\"\n        ></ui-rating-icon>\n    </div>\n\n    <div\n        class=\"ui-rating-feedback\" v-if=\"showFeedback\" transition=\"ui-rating-feedback-toggle\"\n    >\n        <div class=\"ui-rating-help-text\" v-text=\"helpText\"></div>\n    </div>\n</div>\n";
 
 /***/ },
-/* 157 */
+/* 158 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(158)
-	__vue_script__ = __webpack_require__(159)
+	__webpack_require__(159)
+	__vue_script__ = __webpack_require__(160)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiRatingPreview.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(160)
+	  console.warn("[vue-loader] src/UiRatingPreview.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(161)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -8866,9 +10658,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiRatingPreview.vue"
+	  var id = "_v-45d4094e/UiRatingPreview.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -8877,13 +10669,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 158 */
+/* 159 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 159 */
+/* 160 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -8892,7 +10684,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    value: true
 	});
 	
-	var _UiRatingIcon = __webpack_require__(152);
+	var _UiRatingIcon = __webpack_require__(153);
 	
 	var _UiRatingIcon2 = _interopRequireDefault(_UiRatingIcon);
 	
@@ -8923,23 +10715,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 160 */
+/* 161 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<div\n    class=\"ui-rating-preview\" role=\"slider\" :aria-valuemin=\"0\" :aria-valuemax=\"total\"\n    :aria-valuenow=\"value\"\n>\n    <ui-rating-icon\n        :type=\"type\" v-for=\"n in total\" :selected=\"(n + 1) <= value\"\n    ></ui-rating-icon>\n</div>\n";
 
 /***/ },
-/* 161 */
+/* 162 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(162)
-	__vue_script__ = __webpack_require__(163)
+	__webpack_require__(163)
+	__vue_script__ = __webpack_require__(164)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiSelect.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(171)
+	  console.warn("[vue-loader] src/UiSelect.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(172)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -8947,9 +10739,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiSelect.vue"
+	  var id = "_v-3cfc3329/UiSelect.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -8958,13 +10750,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 162 */
+/* 163 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 163 */
+/* 164 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -8973,21 +10765,21 @@ return /******/ (function(modules) { // webpackBootstrap
 	    value: true
 	});
 	
-	var _mergeOptions = __webpack_require__(164);
+	var _mergeOptions = __webpack_require__(165);
 	
 	var _mergeOptions2 = _interopRequireDefault(_mergeOptions);
 	
-	var _fuzzysearch = __webpack_require__(84);
+	var _fuzzysearch = __webpack_require__(85);
 	
 	var _fuzzysearch2 = _interopRequireDefault(_fuzzysearch);
 	
-	var _elementScroll = __webpack_require__(166);
+	var _elementScroll = __webpack_require__(167);
 	
 	var _UiIcon = __webpack_require__(6);
 	
 	var _UiIcon2 = _interopRequireDefault(_UiIcon);
 	
-	var _UiSelectOption = __webpack_require__(167);
+	var _UiSelectOption = __webpack_require__(168);
 	
 	var _UiSelectOption2 = _interopRequireDefault(_UiSelectOption);
 	
@@ -8995,11 +10787,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _UiProgressCircular2 = _interopRequireDefault(_UiProgressCircular);
 	
-	var _HasTextInput = __webpack_require__(91);
+	var _HasTextInput = __webpack_require__(92);
 	
 	var _HasTextInput2 = _interopRequireDefault(_HasTextInput);
 	
-	var _ValidatesInput = __webpack_require__(92);
+	var _ValidatesInput = __webpack_require__(93);
 	
 	var _ValidatesInput2 = _interopRequireDefault(_ValidatesInput);
 	
@@ -9377,11 +11169,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 164 */
+/* 165 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
-	var isOptionObject = __webpack_require__(165);
+	var isOptionObject = __webpack_require__(166);
 	var hasOwnProperty = Object.prototype.hasOwnProperty;
 	var propIsEnumerable = Object.propertyIsEnumerable;
 	var globalThis = this;
@@ -9536,7 +11328,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 165 */
+/* 166 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -9549,7 +11341,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 166 */
+/* 167 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -9602,17 +11394,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 167 */
+/* 168 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(168)
-	__vue_script__ = __webpack_require__(169)
+	__webpack_require__(169)
+	__vue_script__ = __webpack_require__(170)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiSelectOption.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(170)
+	  console.warn("[vue-loader] src/UiSelectOption.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(171)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -9620,9 +11412,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiSelectOption.vue"
+	  var id = "_v-19cce47e/UiSelectOption.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -9631,13 +11423,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 168 */
+/* 169 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 169 */
+/* 170 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -9705,29 +11497,29 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 170 */
+/* 171 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<li\n    class=\"ui-select-option\" :class=\"{ highlighted: highlighted, selected: selected }\"\n>\n    <div class=\"ui-select-option-content\" :class=\"[partial]\">\n        <partial :name=\"partial\"></partial>\n    </div>\n\n    <ui-icon\n        class=\"ui-select-option-checkbox\" :icon=\"icon\" v-if=\"showCheckbox\"\n    ></ui-icon>\n</li>\n";
 
 /***/ },
-/* 171 */
+/* 172 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<div\n    class=\"ui-select\" :id=\"id\" :class=\"{\n        'disabled': disabled, 'invalid': !valid, 'dirty': dirty, 'active': active,\n        'has-label': !hideLabel, 'icon-right': iconRight\n    }\"\n>\n    <div class=\"ui-select-icon-wrapper\" v-if=\"showIcon\">\n        <ui-icon :icon=\"icon\" class=\"ui-select-icon\"></ui-icon>\n    </div>\n\n    <div class=\"ui-select-content\">\n        <div\n            class=\"ui-select-label\" :tabindex=\"disabled ? null : '0'\" v-el:label\n            @focus=\"focus\" @keydown.tab=\"blur\" @click=\"toggle\" @keydown.space.prevent=\"open\"\n            @keydown.enter.prevent=\"open\"\n        >\n            <div class=\"ui-select-label-text\" v-text=\"label\" v-if=\"!hideLabel\"></div>\n\n            <div class=\"ui-select-display\">\n                <div\n                    class=\"ui-select-value\" :class=\"{ placeholder: !hasDisplayText }\"\n                    v-text=\"hasDisplayText ? displayText : placeholder\"\n                ></div>\n\n                <ui-icon icon=\"arrow_drop_down\" class=\"ui-select-dropdown-icon\"></ui-icon>\n            </div>\n\n            <div\n                class=\"ui-select-dropdown\" tabindex=\"-1\" v-show=\"showDropdown\" v-el:dropdown\n                @keydown.esc.prevent=\"close()\" @keydown.tab=\"close()\"\n                @keydown.up.prevent=\"highlight(highlightedIndex - 1)\"\n                @keydown.down.prevent=\"highlight(highlightedIndex + 1)\"\n                @keydown.enter.prevent.stop=\"selectHighlighted(highlightedIndex, $event)\"\n            >\n                <div class=\"ui-select-search\" v-if=\"showSearch\" @click.stop @keydown.space.stop>\n                    <input\n                        class=\"ui-select-search-input\" type=\"text\" v-el:search-input\n                        :placeholder=\"searchPlaceholder\" v-model=\"query\" autocomplete=\"off\"\n                    >\n\n                    <ui-progress-circular\n                        class=\"ui-select-search-spinner\" :size=\"24\" :stroke=\"4\" :show=\"loading\"\n                    ></ui-progress-circular>\n                </div>\n\n                <ul class=\"ui-select-options\" v-el:options-list>\n                    <ui-select-option\n                        :option=\"option\" :partial=\"partial\" :show-checkbox=\"multiple\" :\n                        :keys=\"keys\" @click.stop.prevent=\"select(option, index)\"\n                        @mouseover.stop=\"highlight(index, true)\"\n\n                        :highlighted=\"highlightedIndex === index\"\n                        :selected=\"isSelected(option)\"\n\n                        v-for=\"(index, option) in filteredOptions\" v-ref:options\n                    ></ui-select-option>\n\n                    <li class=\"ui-select-no-results\" v-if=\"nothingFound\">No results found</li>\n                </ul>\n            </div>\n        </div>\n\n        <div class=\"ui-select-feedback\" v-if=\"showFeedback\">\n            <div\n                class=\"ui-select-error-text\" transition=\"ui-select-feedback-toggle\"\n                v-text=\"validationError\" v-show=\"!hideValidationErrors && !valid\"\n            ></div>\n\n            <div\n                class=\"ui-select-help-text\" transition=\"ui-select-feedback-toggle\"\n                v-text=\"helpText\" v-else\n            ></div>\n        </div>\n    </div>\n</div>\n";
 
 /***/ },
-/* 172 */
+/* 173 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(173)
-	__vue_script__ = __webpack_require__(174)
+	__webpack_require__(174)
+	__vue_script__ = __webpack_require__(175)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiSlider.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(183)
+	  console.warn("[vue-loader] src/UiSlider.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(184)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -9735,9 +11527,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiSlider.vue"
+	  var id = "_v-3cc206e4/UiSlider.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -9746,13 +11538,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 173 */
+/* 174 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 174 */
+/* 175 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -9761,7 +11553,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    value: true
 	});
 	
-	var _draggabilly = __webpack_require__(175);
+	var _draggabilly = __webpack_require__(176);
 	
 	var _draggabilly2 = _interopRequireDefault(_draggabilly);
 	
@@ -9952,7 +11744,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 175 */
+/* 176 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*** IMPORTS FROM imports-loader ***/
@@ -9984,10 +11776,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	    // CommonJS
 	    module.exports = factory(
 	      window,
-	      __webpack_require__(176),
 	      __webpack_require__(177),
 	      __webpack_require__(178),
-	      __webpack_require__(179)
+	      __webpack_require__(179),
+	      __webpack_require__(180)
 	    );
 	  } else {
 	    // browser global
@@ -10477,7 +12269,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}.call(window));
 
 /***/ },
-/* 176 */
+/* 177 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*** IMPORTS FROM imports-loader ***/
@@ -10573,7 +12365,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}.call(window));
 
 /***/ },
-/* 177 */
+/* 178 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*** IMPORTS FROM imports-loader ***/
@@ -10639,7 +12431,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}.call(window));
 
 /***/ },
-/* 178 */
+/* 179 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*** IMPORTS FROM imports-loader ***/
@@ -10889,7 +12681,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  define( [ 'get-style-property/get-style-property' ], defineGetSize );
 	} else if ( true ) {
 	  // CommonJS for Component
-	  module.exports = defineGetSize( __webpack_require__(177) );
+	  module.exports = defineGetSize( __webpack_require__(178) );
 	} else {
 	  // browser global
 	  window.getSize = defineGetSize( window.getStyleProperty );
@@ -10900,7 +12692,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}.call(window));
 
 /***/ },
-/* 179 */
+/* 180 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*** IMPORTS FROM imports-loader ***/
@@ -10932,8 +12724,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	    // CommonJS
 	    module.exports = factory(
 	      window,
-	      __webpack_require__(180),
-	      __webpack_require__(181)
+	      __webpack_require__(181),
+	      __webpack_require__(182)
 	    );
 	  } else {
 	    // browser global
@@ -11277,10 +13069,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	}.call(window));
 
 /***/ },
-/* 180 */
+/* 181 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
+	/*** IMPORTS FROM imports-loader ***/
+	var define = false;
+	(function() {
+	
+	/*!
 	 * eventie v1.0.6
 	 * event binding helper
 	 *   eventie.bind( elem, 'click', myFn )
@@ -11350,10 +13146,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	// ----- module definition ----- //
 	
-	if ( true ) {
+	if ( typeof define === 'function' && define.amd ) {
 	  // AMD
-	  !(__WEBPACK_AMD_DEFINE_FACTORY__ = (eventie), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.call(exports, __webpack_require__, exports, module)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
-	} else if ( typeof exports === 'object' ) {
+	  define( eventie );
+	} else if ( true ) {
 	  // CommonJS
 	  module.exports = eventie;
 	} else {
@@ -11362,10 +13158,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	
 	})( window );
-
+	
+	}.call(window));
 
 /***/ },
-/* 181 */
+/* 182 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*** IMPORTS FROM imports-loader ***/
@@ -11397,8 +13194,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	    // CommonJS
 	    module.exports = factory(
 	      window,
-	      __webpack_require__(182),
-	      __webpack_require__(180)
+	      __webpack_require__(183),
+	      __webpack_require__(181)
 	    );
 	  } else {
 	    // browser global
@@ -11692,7 +13489,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}.call(window));
 
 /***/ },
-/* 182 */
+/* 183 */
 /***/ function(module, exports) {
 
 	/*** IMPORTS FROM imports-loader ***/
@@ -12175,23 +13972,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	}.call(window));
 
 /***/ },
-/* 183 */
+/* 184 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<div\n    class=\"ui-slider\" :id=\"id\"\n    :class=\"{\n        min: value === 0, max: value === 100, dragging: dragging, disabled: disabled,\n        active: active, 'has-label': hasLabel\n    }\"\n\n    :tabindex=\"disabled ? null : 0\" role=\"slider\" :aria-valuemin=\"0\" :aria-valuemax=\"100\"\n    :aria-valuenow=\"value\"\n\n    @keydown.left.prevent=\"decrement\" @keydown.right.prevent=\"increment\"\n    @keydown.down.prevent=\"decrement\" @keydown.up.prevent=\"increment\"\n    @focus=\"focus\" @blur=\"blur\"\n>\n    <input type=\"hidden\" :value=\"value\" :name=\"name\">\n\n    <div class=\"ui-slider-icon-wrapper\" v-if=\"showIcon\">\n        <ui-icon :icon=\"icon\" class=\"ui-slider-icon\"></ui-icon>\n    </div>\n\n    <div class=\"ui-slider-content\">\n        <div class=\"ui-slider-label\" v-text=\"label\" v-if=\"!hideLabel\"></div>\n\n        <div class=\"ui-slider-wrapper\" v-el:slider @mousedown=\"sliderClick\">\n            <div class=\"ui-slider-containment\" v-el:containment></div>\n\n            <div class=\"ui-slider-track\">\n                <div class=\"ui-slider-track-fill\" :style=\"{ width: value + '%'}\"></div>\n            </div>\n\n            <div class=\"ui-slider-thumb-container\" v-el:thumb>\n                <div class=\"ui-slider-focus-ring\"></div>\n                <div class=\"ui-slider-thumb\"></div>\n            </div>\n        </div>\n    </div>\n</div>\n";
 
 /***/ },
-/* 184 */
+/* 185 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(185)
-	__vue_script__ = __webpack_require__(186)
+	__webpack_require__(186)
+	__vue_script__ = __webpack_require__(187)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiSnackbar.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(187)
+	  console.warn("[vue-loader] src/UiSnackbar.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(188)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -12199,9 +13996,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiSnackbar.vue"
+	  var id = "_v-609da972/UiSnackbar.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -12210,13 +14007,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 185 */
+/* 186 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 186 */
+/* 187 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -12225,7 +14022,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    value: true
 	});
 	
-	var _UiButton = __webpack_require__(109);
+	var _UiButton = __webpack_require__(110);
 	
 	var _UiButton2 = _interopRequireDefault(_UiButton);
 	
@@ -12315,23 +14112,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 187 */
+/* 188 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<div\n    class=\"ui-snackbar\" :id=\"id\" transition=\"ui-snackbar-toggle\" @click=\"click\" v-show=\"show\"\n>\n    <div class=\"ui-snackbar-text\">\n        <slot>\n            <span v-text=\"message\"></span>\n        </slot>\n    </div>\n\n    <div class=\"ui-snackbar-action\">\n        <ui-button\n            class=\"ui-snackbar-action-button\" type=\"flat\" :color=\"actionColor\"\n            :text=\"action\" @click.stop=\"actionClick\" v-if=\"action\"\n        ></ui-button>\n    </div>\n</div>\n";
 
 /***/ },
-/* 188 */
+/* 189 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(189)
-	__vue_script__ = __webpack_require__(190)
+	__webpack_require__(190)
+	__vue_script__ = __webpack_require__(191)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiSnackbarContainer.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(191)
+	  console.warn("[vue-loader] src/UiSnackbarContainer.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(192)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -12339,9 +14136,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiSnackbarContainer.vue"
+	  var id = "_v-144324df/UiSnackbarContainer.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -12350,13 +14147,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 189 */
+/* 190 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 190 */
+/* 191 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -12365,11 +14162,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	    value: true
 	});
 	
-	var _uuid = __webpack_require__(88);
+	var _uuid = __webpack_require__(89);
 	
 	var _uuid2 = _interopRequireDefault(_uuid);
 	
-	var _UiSnackbar = __webpack_require__(184);
+	var _UiSnackbar = __webpack_require__(185);
 	
 	var _UiSnackbar2 = _interopRequireDefault(_UiSnackbar);
 	
@@ -12457,23 +14254,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 191 */
+/* 192 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<div class=\"ui-snackbar-container\" :class=\"[position]\">\n    <ui-snackbar\n        :duration=\"s.duration\" :show.sync=\"s.show\" :action=\"s.action\"\n        :action-color=\"s.actionColor\" :persistent=\"s.persistent\" :id=\"s.id\" auto-hide\n\n        @shown=\"shown(s)\" @hidden=\"hidden(s)\" @clicked=\"clicked(s)\"\n        @action-clicked=\"actionClicked(s)\"\n\n        v-for=\"s in queue\"\n    >\n        <div v-html=\"s.message\" v-if=\"s.allowHtml\"></div>\n        <span v-text=\"s.message\" v-else></span>\n    </ui-snackbar>\n</div>\n";
 
 /***/ },
-/* 192 */
+/* 193 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(193)
-	__vue_script__ = __webpack_require__(194)
+	__webpack_require__(194)
+	__vue_script__ = __webpack_require__(195)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiSwitch.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(195)
+	  console.warn("[vue-loader] src/UiSwitch.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(196)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -12481,9 +14278,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiSwitch.vue"
+	  var id = "_v-ea064d3e/UiSwitch.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -12492,13 +14289,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 193 */
+/* 194 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 194 */
+/* 195 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -12570,23 +14367,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 195 */
+/* 196 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<label\n    class=\"ui-switch\"\n    :class=\"{ 'checked': value, 'disabled': disabled, 'label-left': labelLeft }\"\n>\n    <div class=\"ui-switch-container\">\n        <input\n            class=\"ui-switch-input\" type=\"checkbox\" :name=\"name\" :id=\"id\" v-model=\"value\"\n            v-disabled=\"disabled\"\n        >\n\n        <div class=\"ui-switch-track\"></div>\n        <div class=\"ui-switch-thumb\"></div>\n\n        <div class=\"ui-switch-focus-ring\"></div>\n    </div>\n\n    <div class=\"ui-switch-label-text\" v-if=\"!hideLabel\">\n        <slot>\n            <span v-text=\"label\"></span>\n        </slot>\n    </div>\n</label>\n";
 
 /***/ },
-/* 196 */
+/* 197 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(197)
-	__vue_script__ = __webpack_require__(198)
+	__webpack_require__(198)
+	__vue_script__ = __webpack_require__(199)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiTab.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(199)
+	  console.warn("[vue-loader] src/UiTab.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(200)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -12594,9 +14391,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiTab.vue"
+	  var id = "_v-7cb63390/UiTab.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -12605,13 +14402,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 197 */
+/* 198 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 198 */
+/* 199 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -12650,23 +14447,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 199 */
+/* 200 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<div\n    class=\"ui-tab\" :id=\"id\" role=\"tabpanel\" :tabindex=\"active ? '0' : null\"\n    :aria-hidden=\"!active ? 'true' : null\" v-show=\"active\"\n>\n    <slot></slot>\n</div>\n";
 
 /***/ },
-/* 200 */
+/* 201 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(201)
-	__vue_script__ = __webpack_require__(202)
+	__webpack_require__(202)
+	__vue_script__ = __webpack_require__(203)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiTabs.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(207)
+	  console.warn("[vue-loader] src/UiTabs.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(208)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -12674,9 +14471,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiTabs.vue"
+	  var id = "_v-76a381eb/UiTabs.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -12685,13 +14482,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 201 */
+/* 202 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 202 */
+/* 203 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -12700,11 +14497,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	    value: true
 	});
 	
-	var _uuid = __webpack_require__(88);
+	var _uuid = __webpack_require__(89);
 	
 	var _uuid2 = _interopRequireDefault(_uuid);
 	
-	var _UiTabHeaderItem = __webpack_require__(203);
+	var _UiTabHeaderItem = __webpack_require__(204);
 	
 	var _UiTabHeaderItem2 = _interopRequireDefault(_UiTabHeaderItem);
 	
@@ -12918,17 +14715,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 203 */
+/* 204 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(204)
-	__vue_script__ = __webpack_require__(205)
+	__webpack_require__(205)
+	__vue_script__ = __webpack_require__(206)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiTabHeaderItem.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(206)
+	  console.warn("[vue-loader] src/UiTabHeaderItem.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(207)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -12936,9 +14733,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiTabHeaderItem.vue"
+	  var id = "_v-a88464d0/UiTabHeaderItem.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -12947,13 +14744,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 204 */
+/* 205 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 205 */
+/* 206 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -13008,29 +14805,29 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 206 */
+/* 207 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<li\n    class=\"ui-tab-header-item\" role=\"tab\"\n    :class=\"['type-' + type, { 'active': active, 'disabled': disabled }]\"\n\n    :tabindex=\"active ? 0 : -1\" :aria-controls=\"id\" :aria-selected=\"active ? 'true' : null\"\n    v-disabled=\"disabled\" v-el:item\n>\n    <div\n        class=\"ui-tab-header-item-icon\" v-if=\"type === 'icon' || type === 'icon-and-text'\"\n    >\n        <ui-icon :icon=\"icon\"></ui-icon>\n    </div>\n\n    <div\n        class=\"ui-tab-header-item-text\" v-text=\"text\"\n        v-if=\"type === 'text' || type === 'icon-and-text'\"\n    ></div>\n\n    <ui-ripple-ink :trigger=\"$els.item\" v-if=\"!hideRippleInk && !disabled\"></ui-ripple-ink>\n</li>\n";
 
 /***/ },
-/* 207 */
+/* 208 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<div class=\"ui-tabs\" :class=\"styleClasses\">\n    <div class=\"ui-tabs-header\" :class=\"[backgroundColor]\">\n        <ul\n            class=\"ui-tabs-header-items\" :class=\"[textColor, textColorActive]\" role=\"tablist\"\n            v-el:tabs-container\n        >\n            <ui-tab-header-item\n                :type=\"type\" :id=\"tab.id\" :icon=\"tab.icon\" :text=\"tab.header\"\n                :active=\"activeTab === tab.id\" :disabled=\"tab.disabled\"\n                :hide-ripple-ink=\"hideRippleInk\"\n\n                @click=\"select($event, tab)\" @keydown.left=\"selectPrev(index)\"\n                @keydown.right=\"selectNext($index)\"\n\n                v-for=\"(index, tab) in $children\" v-ref:tab-elements\n            ></ui-tab-header-item>\n        </ul>\n\n        <div\n            class=\"ui-tabs-active-tab-indicator\" :class=\"[indicatorColor]\"\n            :style=\"{ 'left': indicatorLeft, 'right': indicatorRight }\"\n        ></div>\n    </div>\n\n    <div class=\"ui-tabs-body\">\n        <slot></slot>\n    </div>\n</div>\n";
 
 /***/ },
-/* 208 */
+/* 209 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(209)
-	__vue_script__ = __webpack_require__(210)
+	__webpack_require__(210)
+	__vue_script__ = __webpack_require__(211)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiTextbox.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(211)
+	  console.warn("[vue-loader] src/UiTextbox.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(212)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -13038,9 +14835,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiTextbox.vue"
+	  var id = "_v-714d4bbe/UiTextbox.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -13049,13 +14846,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 209 */
+/* 210 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 210 */
+/* 211 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -13068,15 +14865,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _UiIcon2 = _interopRequireDefault(_UiIcon);
 	
-	var _autofocus = __webpack_require__(90);
+	var _autofocus = __webpack_require__(91);
 	
 	var _autofocus2 = _interopRequireDefault(_autofocus);
 	
-	var _HasTextInput = __webpack_require__(91);
+	var _HasTextInput = __webpack_require__(92);
 	
 	var _HasTextInput2 = _interopRequireDefault(_HasTextInput);
 	
-	var _ValidatesInput = __webpack_require__(92);
+	var _ValidatesInput = __webpack_require__(93);
 	
 	var _ValidatesInput2 = _interopRequireDefault(_ValidatesInput);
 	
@@ -13254,23 +15051,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 211 */
+/* 212 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<div\n    class=\"ui-textbox\"\n    :class=\"{\n        'disabled': disabled, 'invalid': !valid, 'dirty': dirty, 'active': active,\n        'has-label': !hideLabel, 'is-multi-line': multiLine, 'icon-right': iconRight,\n        'has-counter': maxLength\n    }\"\n>\n    <div class=\"ui-textbox-icon-wrapper\" v-if=\"showIcon\">\n        <ui-icon :icon=\"icon\" class=\"ui-textbox-icon\"></ui-icon>\n    </div>\n\n    <div class=\"ui-textbox-content\">\n        <label class=\"ui-textbox-label\">\n            <div class=\"ui-textbox-label-text\" v-text=\"label\" v-if=\"!hideLabel\"></div>\n\n            <input\n                class=\"ui-textbox-input\" :type=\"type\" :placeholder=\"placeholder\" :name=\"name\"\n                :id=\"id\" :number=\"type === 'number' ? true : null\" :min=\"minValue\"\n                :max=\"maxValue\" :step=\"stepValue\"\n                :autocomplete=\"autocomplete ? autocomplete : null\"\n\n                @focus=\"focussed\" @blur=\"blurred\" @change=\"changed\" @keydown=\"keydown\"\n                @keydown.enter=\"keydownEnter\" :debounce=\"debounce\"\n\n                v-model=\"value | trim\" v-disabled=\"disabled\" v-if=\"!multiLine\"\n                v-autofocus=\"autofocus\"\n            >\n\n            <textarea\n                class=\"ui-textbox-textarea\" :placeholder=\"placeholder\" :name=\"name\" :id=\"id\"\n                :rows=\"rows\"\n\n                @focus=\"focussed\" @blur=\"blurred\" @change=\"changed\" @keydown=\"keydown\"\n                @keydown.enter=\"keydownEnter\" :debounce=\"debounce\"\n\n                v-model=\"value | trim\" v-disabled=\"disabled\" v-else\n            ></textarea>\n        </label>\n\n        <div class=\"ui-textbox-feedback\" v-if=\"showFeedback || maxLength\">\n            <div\n                class=\"ui-textbox-error-text\" transition=\"ui-textbox-feedback-toggle\"\n                v-text=\"validationError\" v-show=\"!hideValidationErrors && !valid\"\n            ></div>\n\n            <div\n                class=\"ui-textbox-help-text\" transition=\"ui-textbox-feedback-toggle\"\n                v-text=\"helpText\" v-else\n            ></div>\n\n            <div\n                class=\"ui-textbox-counter\" v-text=\"value.length + '/' + maxLength\"\n                v-if=\"maxLength\"\n            ></div>\n        </div>\n    </div>\n</div>\n";
 
 /***/ },
-/* 212 */
+/* 213 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(213)
-	__vue_script__ = __webpack_require__(214)
+	__webpack_require__(214)
+	__vue_script__ = __webpack_require__(215)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiToolbar.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(215)
+	  console.warn("[vue-loader] src/UiToolbar.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(216)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -13278,9 +15075,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiToolbar.vue"
+	  var id = "_v-76e3dcc4/UiToolbar.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -13289,13 +15086,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 213 */
+/* 214 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 214 */
+/* 215 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -13304,7 +15101,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    value: true
 	});
 	
-	var _UiProgressLinear = __webpack_require__(137);
+	var _UiProgressLinear = __webpack_require__(138);
 	
 	var _UiProgressLinear2 = _interopRequireDefault(_UiProgressLinear);
 	
@@ -13412,7 +15209,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 215 */
+/* 216 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<div class=\"ui-toolbar\" :class=\"styleClasses\">\n    <div class=\"ui-toolbar-left\">\n        <ui-icon-button\n            class=\"ui-toolbar-nav-icon\" type=\"clear\" :color=\"iconColor\" :icon=\"navIcon\"\n            @click=\"navIconClick\" v-if=\"!hideNavIcon\"\n        ></ui-icon-button>\n\n        <div class=\"ui-toolbar-brand\" v-if=\"showBrand\">\n            <slot name=\"brand\">\n                <div class=\"ui-toolbar-brand-text\" v-text=\"brand\"></div>\n            </slot>\n        </div>\n    </div>\n\n    <div class=\"ui-toolbar-center\">\n        <div class=\"ui-toolbar-divider\" v-if=\"brandDividerVisible\"></div>\n\n        <slot>\n            <div class=\"ui-toolbar-title\" v-text=\"title\"></div>\n        </slot>\n    </div>\n\n    <div class=\"ui-toolbar-right\">\n        <slot name=\"actions\"></slot>\n    </div>\n\n    <ui-progress-linear\n        :show=\"loading\" class=\"ui-toolbar-preloader\" :class=\"{ 'position-top' : preloaderTop }\"\n        :color=\"preloaderColor\"\n    ></ui-progress-linear>\n</div>\n";
